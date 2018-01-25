@@ -1,7 +1,7 @@
 {
 	title = "Progdor",
 	url = "http://pastebin.com/raw/YXx5jjMV",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "This is a quick utility for turning folders into files, and back. Also compresses using the CCA API.\nHas been blessed by the fabled &eburninator&r of legend.",
 	catagory = 1,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27273-progdor-an-even-easier-way-to-bundle-a-folder-into-one-file/",

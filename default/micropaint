@@ -1,0 +1,9 @@
+{
+	title = "Micropaint",
+	url = "http://pastebin.com/raw/tMRzJXx2",
+	creator = "nitrogenfingers",
+	description = "An experimental painting program that specializes in pictures with the new tiny pixel (teletext?) characters.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27331-micropaint-experimental-painting-program-for-tiny-pixels/",
+	keywords = {"tiny","pixels","teletext"},
+}

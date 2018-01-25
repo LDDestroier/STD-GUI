@@ -1,7 +1,7 @@
 {
 	title = "Sinelock SHA256 door/computer lock",
 	url = "http://pastebin.com/raw/XDgeSDTq",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A relatively advanced door/computer lock that uses SHA256 encryption. It also displays a sine wave pattern while at the prompt, hence the name.\nSupports many features, including multiple passwords (enter all/enter one), anti-termination chiding, pretty patterns, and floppy disk key cards.\n\nSuck it, LoganDark!",
 	catagory = 1,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26502-sinelock-v1-sha256-encryption-multiple-passwords-key-cards/",

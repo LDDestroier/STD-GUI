@@ -1,0 +1,9 @@
+{
+	title = "BSOD jokescreen",
+	url = "http://pastebin.com/raw/z8FX8ZzA",
+	creator = al.ldd,
+	description = "A joke demonstration of an error screen that resembles the infamous Windows blue screen of death. This code is meant to be put in your program (as a joke, of course), and the BSOD function to be called should your program error.",
+	catagory = 4,
+	forumPost = "Forum post? No forum post here... ",
+	keywords = {"blue screen death"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "HouseCloud (Server)",
+	url = "http://pastebin.com/raw/XqyhE7S6",
+	creator = "houseofkraft",
+	description = "A file-syncing program/FTP server. Its main purpose is to allow easy downloading of a premade set of files, but can also be used for remote file storage.\nThis is NOT encrypted (yet), and soon it will be HTTP based.\nServer.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27847-housecloud-the-next-cloud-in-minecraft/",
+	keywords = {"ftp","syncing","file"},
+}

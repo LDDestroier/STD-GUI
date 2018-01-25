@@ -1,0 +1,9 @@
+{
+	title = "LoganDark's Password Lock System v4",
+	url = "http://pasteibn.com/raw/BhPk3z1E",
+	creator = "LoganDark",
+	description = "A basic door lock that uses PBKDF2 salted hashing algorithm.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26148-v41-coming-logandarks-password-lock/",
+	keywords = {"pbkdf2","salted"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "Packman",
+	url = "http://pastebin.com/raw/4zyreNZy",
+	creator = "Lyqyd",
+	description = "A packaging program used to install applications through packman repositories (like STD, but different). Can be used to easily install Lyqyd's programs. This is the install script, and not the actual program.",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22268-packman-a-package-management-tool/",
+	keywords = {"pacman","package","packaging"},
+}

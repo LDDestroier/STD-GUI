@@ -1,11 +1,9 @@
 {
 	title = "~d&0Super Text Downloader &4GUI",
 	url = "http://pastebin.com/raw/P9dDhQ2m",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A decent GUI interface for my program STD. In case you want it, because it's good. Can sort though categories and has a search function. Works with advanced and normal computers alike, along with pocket computers.",
 	catagory = 11,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26561-super-text-downloader-gui-interface/",
-	icon = {"\0308\0317STD\031f \030f ","\0308\0317GUI\031f \0300 ","\0307\031f    \0300 "},
-	banner = {"\0307\031f                            ","\0307\031f   \030f                      \0307   ","\0307\031f  \030f  \0304     \030f  \0304       \030f  \0304    \030f  \0307  ","\0307\031f  \030f \0304 \030f    \0304  \030f    \0304 \030f     \0304 \030f  \0304  \030f \0307  ","\0307\031f  \030f \0304 \030f       \0308  \030f \0304 \030f \0308   \030f \0304 \030f\0314 \031f  \0304 \030f \0307  ","\0307\031f  \030f \0304     \030f  \0308  \030f  \0304 \030f \0308  \030f  \0304 \030f   \0304 \030f \0307  ","\030f\031f        \0304 \030f \0308 \030f  \0304  \030f \0308 \030f  \0304 \030f   \0304  \030f \0307  ","\030f\031f \0304 \030f     \0304  \030f   \0304  \030f    \0304  \030f \0304   \030f  \0307  ","\030f\031f \0304       \030f  \0304   \030f  \0308 \030f \0304     \030f   \0307   ","\030f\031f              \0308  \030f       \0308  \0307   ","\0307\031f   \0308                    \0307     ","\0307\031f \030f \0310GRAPHICAL USER INTERFACE \0307 ","\0307\031f    \0308 \0307 \0308              \0307        ","\0307\031f         \0308  \0307  \0308  \0307 \0308  \0307          ","\0307\031f                            "},
 	keywords = {"eldidi","ldd","superb"},
 }

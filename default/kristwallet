@@ -1,0 +1,9 @@
+{
+	title = "Kristwallet",
+	url = "http://pastebin.com/raw/Yv0fChz5",
+	creator = "3d6",
+	description = "A wallet program for the crypto-currency Krist. Used to manage transactions and domains.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22201-krist-minable-currency-that-works-across-servers/",
+	keywords = {"cryptocurrency"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "Piclock",
+	url = "http://pastebin.com/raw/ikhdmyMq",
+	creator = "Watsuprico",
+	description = "A neat picture-based lock where to unlock the computer, you must click in the exact spots set during setup.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25713-piclock-a-picture-based-lock-program/",
+	keywords = {"picture","image"},
+}

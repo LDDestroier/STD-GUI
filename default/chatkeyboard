@@ -1,0 +1,9 @@
+{
+		title = "Chatkeyboard",
+		url = "https://raw.githubusercontent.com/Wilma456/Computercraft/master/Command/chatkeyboard.lua",
+		creator = "Wilma456",
+		description = "This program uses the chat for keyboard input!",
+		catagory = 10,
+		forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28729-chatkeyboard/",
+		keywords = {},
+	}

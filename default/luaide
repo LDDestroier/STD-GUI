@@ -1,0 +1,9 @@
+{
+	title = "LuaIDE",
+	url = "http://pastebin.com/raw/vyAZc6tJ",
+	creator = "GravityScore",
+	description = "An advanced IDE for the Lua programming language. Has many features that you don't see in many other editors, including a find, goto line, even a per-line error checker functions. You'll actually like editing in-game!",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/12347-luaide-10-you-might-actually-like-editing-in-game/",
+	keywords = {},
+}

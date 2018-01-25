@@ -1,0 +1,9 @@
+{
+	title = "Peripheral Manager",
+	url = "http://pastebin.com/raw/4UrrFHzS",
+	creator = "Lego Stax",
+	description = "(CCJam 2016 contender!)\n\nA graphical interface to display and configure wired or otherwise connected peripherals. It has icons for every one of the usual ComputerCraft peripherals, and can even do some slightly advanced functions with some peripherals, like running a program on a monitor.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27078-ccjam-2016-peripheral-manager/",
+	keywords = {"ccjam2016",},
+}

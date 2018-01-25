@@ -1,0 +1,9 @@
+{
+	title = "Lattice",
+	url = "http://pastebin.com/raw/5A2xujvw",
+	creator = "Konlab",
+	description = "A well-made graphical FS file browser for advanced computers. Can display in both icon mode and a list.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24364-multiselection-file-browser-lattice/",
+	keywords = {"file","browser","manager","explorer"},
+}

@@ -2,7 +2,7 @@
 	title = "Axiom UI",
 	url = "http://pastebin.com/raw/2nLQRsSd",
 	creator = "Nothy",
-	description = "A neato user interface with various programs pre-installed. Although if you ask me, it's as much an OS as any other \"OS\" is.\nSince this is an install file, I urge you to "..al.run..".",
+	description = "A neato user interface with various programs pre-installed. Although if you ask me, it's as much an OS as any other \"OS\" is.\nSince this is an install file, I urge you to "..std.aliases.run..".",
 	catagory = 5,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26686-axiom-the-easy-to-use-uios/",
 	keywords = {"os","buggy-mess"},

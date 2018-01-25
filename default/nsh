@@ -1,0 +1,9 @@
+{
+	title = "Net Shell",
+  url = "http://pastebin.com/raw/X5Fysdi4",
+	creator = "Lyqyd",
+	description = "A remote-desktop utility. View other computer's screens, and send/receive files using 'nsh-get' and 'nsh-put'.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/6472-nsh-now-with-previous-session-resume/",
+	keywords = {"remote desktop"},
+}

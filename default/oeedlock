@@ -1,0 +1,9 @@
+{
+	title = "Ultimate Door Lock",
+	url = "http://pastebin.com/raw/4QeAEiTM",
+	creator = al.oeed,
+	description = "An intuitive door lock that opens doors whenever registered pocket computers are a certain distance away.\nInstalls on an advanced computer and a wireless pocket computer to work properly.",
+	catagory = 2,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/17614-ultimate-door-lock-pda-opened-doors/",
+	keywords = {},
+}

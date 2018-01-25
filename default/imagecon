@@ -1,0 +1,9 @@
+{
+	title = "Imagecon",
+	url = "https://raw.githubusercontent.com/Wilma456/Computercraft/master/Tools/imagecon.lua",
+	creator = "Wilma456",
+	description = "This tool convert a .nfp image to code.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28816-imagecon-convert-a-image-to-code/",
+	keywords = {"paint","code"},
+}

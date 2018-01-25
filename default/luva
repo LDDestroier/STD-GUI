@@ -1,0 +1,9 @@
+{
+	title = "Luva",
+	url = "http://pastebin.com/raw/Kus6yZwV",
+	creator = "Detective_Smith",
+	description = "An alternative compiled language to Lua for ComputerCraft.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25482-language-early-release-luva-compiles-to-lua/",
+	keywords = {"lua","compiled"},
+}

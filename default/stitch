@@ -1,0 +1,9 @@
+{
+	title = "Stitch",
+	url = "http://pastebin.com/raw/CTrVdFK9",
+	creator = "KingOfGamesYami",
+	description = "An API used to make big monitors out of smaller monitors. Not an original idea, but this solution works damn well. It creates a 'stitch' terminal object that can be safely redirected to with term.redirect(stitch)\nThis is the minified version.",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26307-stitch-massive-monitors/",
+	keywords = {"monitors","billboard"},
+}

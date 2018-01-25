@@ -1,7 +1,7 @@
 {
 	title = "LDDLock",
 	url = "http://pastebin.com/raw/uW0X4aKn",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A basic, encrypted door/computer lock. Can accept multiple passwords, and works on normal computers as well as advanced. Obsoleted by Sinelock, but this still works.",
 	catagory = 1,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25308-hashed-computer-lock/",

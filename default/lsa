@@ -1,0 +1,9 @@
+{
+	title = "List Advanced",
+	url = "http://pastebin.com/raw/fWDrjtvL",
+	creator = "nitrogenfingers",
+	description = "An advanced list (ls) command that gives you more information about the files.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/23314-lsa-list-advanced/",
+	keywords = {},
+}

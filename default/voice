@@ -1,0 +1,9 @@
+{
+	title = "Voice",
+	url = "http://pastebin.com/raw/r32RjcK0",
+	creator = "KnightMiner",
+	description = "A remote control program for turtles that uses chatboxes as the input.",
+	catagory = 9,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25925-voice-a-twist-on-the-classic-turtle-remote-using-a-chatbox/",
+	keywords = {"turtle","chatbox","remote control"},
+}

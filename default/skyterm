@@ -1,0 +1,9 @@
+{
+	title = "skyTerm",
+	url = "http://pastebin.com/raw/Wq132HyT",
+	creator = "Bomb Bloke",
+	description = "A command API that uses minecraft blocks in the sky as a terminal object. While rad as fuck, it lags like mad.",
+	catagory = 10,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22967-skyterm/",
+	keywords = {"terminal"},
+}

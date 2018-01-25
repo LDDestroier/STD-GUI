@@ -1,0 +1,9 @@
+{
+	title = "Lightspeed Alpha Installer",
+	url = "https://pastebin.com/raw/JjFsqCMD",
+	creator = "Xelostar",
+	description = "A top-down spaceship game inspired by Faster Than Light. Has a big ol' world to explode, enemy spaceships to blast, and the ability to upgrade your ship.\nThis is an installer, so please "..al.run.." and have the Argument be where you will extract the game.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28645-lightspeed-alpha-v10/",
+	keywords = {"ftl","fasterthanlight","spaceships"},
+}

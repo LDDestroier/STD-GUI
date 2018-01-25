@@ -1,0 +1,9 @@
+{
+	title = "jamROGUE",
+	url = "http://pastebin.com/raw/t9aev7fA",
+	creator = "Lemmmy", --And a big thanks to you for this!
+	description = "(CCJam 2016 contender!)\n\nAn online multiplayer roguelike game with an inventory system, item drops, enemies with AI, chat, and everything is rendered with the beautiful smaller pixels! As such, this requires ComputerCraft 1.76 or later. This game is - hands down - the best CC game for the entire mod.\nThis is the instaler, so make sure to "..al.run.." it.",
+	catagory = 3,
+	forumPost = "none exists, yet... ",
+	keywords = {"ccjam2016","roguelike","online","multiplayer"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "Edit+",
+	url = "http://pastebin.com/raw/sR9t4iRZ",
+	creator = "GopherAtl",
+	description = "An improved version of the 'edit' program, with more functions.",
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22257-edit-enhanced-editor-non-qwerty-ready/",
+	catagory = 1,
+	keywords = {"editplus","editor","texteditor"},
+}

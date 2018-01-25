@@ -1,0 +1,9 @@
+{
+	title = "Net Shell GET command",
+	url = "http://pastebin.com/raw/KJ9Tu2Y9",
+	creator = "Lyqyd",
+	description = "The GET command for nsh. Allows you to retrieve files from a remote host.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/6472-nsh-now-with-previous-session-resume/",
+	keywords = {"remote desktop"},
+}

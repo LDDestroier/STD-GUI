@@ -1,0 +1,9 @@
+{
+	title = "FAR Remote Shell",
+	url = "https://raw.githubusercontent.com/InternetUnexplorer/CCJam-2016/master/far",
+	creator = "InternetUnexplorer",
+	description = "(CCJam 2016 contender!)\n\nA smart remote shell, similar in function to NSH but...smarter! It can even work with terminal sizes differing from the client's. The method of gathering and transmitting screen data is also well-optimized, pretty much fixing screen flickering or lag.\nThis is the program, not an installer, so feel free to DOWNLOAD it.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27077-far-actual-remote-shell-for-cc/",
+	keywords = {"ccjam2016","nsh"},
+}

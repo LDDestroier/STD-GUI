@@ -1,0 +1,9 @@
+{
+	title = "Mouse File Browser",
+	url = "http://pastebin.com/raw/jKZBPFTs",
+	creator = "HPWebcamAble",
+	description = "A graphical file manager that uses the mouse, sans many functions like copy/paste. But it's for grayscale!",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24579-file-manager-20-history-run-w-args-grayscale-support/",
+	keywords = {"file","explorer","manager"},
+}

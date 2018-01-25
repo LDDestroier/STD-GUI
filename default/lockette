@@ -1,0 +1,9 @@
+{
+	title = "Lockette",
+	url = "http://pastebin.com/raw/cGM4iF1d",
+	creator = "Wojbie",
+	description = "Intuitive lock program that activates after computer is inactive for too long, then unlocks after a password is entered.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25025-lockette-computer-access-limiter-v1/",
+	keywords = {},
+}

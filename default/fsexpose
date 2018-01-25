@@ -1,0 +1,9 @@
+{
+	title = "FsExpose",
+	url = "http://pastebin.com/raw/93ERVyeQ",
+	creator = "Piorjade",
+	description = "A basic file explorer...with a lemon twist! Clicking on files will 'expose' them on the left bar. Other than that, it's a file explorer as any other.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27770-filebrowser-fsexpose/",
+	keywords = {"file","browser","manager"},
+}

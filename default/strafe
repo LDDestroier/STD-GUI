@@ -1,0 +1,9 @@
+{
+	title = "Strafe",
+	url = "http://pastebin.com/raw/bj3qj1Pj",
+	creator = "CrazedProgrammer",
+	description = "A ComputerCraft game distribution platform similar to Steam.",
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22958-strafe-download-and-play-games/",
+	catagory = 6,
+	keywords = {"steam","origin"},
+}

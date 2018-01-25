@@ -1,0 +1,9 @@
+{
+	title = "InZernet Protocol v1 (Switch)",
+	url = "http://pastebin.com/raw/4m1wGz37",
+	creator = "codywtworld",
+	description = "An attempt at recreating the whole TCP/IP network structure in ComputerCraft.\nNetwork switch.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/23772-ipv1-inzernet-protocol-version-1-in-game-internet/",
+  keywords = {"internet","tcp ip"},
+}

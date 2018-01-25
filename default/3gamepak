@@ -1,0 +1,9 @@
+{
+	title = "3 Game Pak (Dr. Dan, Stacker DX, Bird Hunt!)",
+	url = "http://pastebin.com/raw/EmLqt5D2",
+	creator = "CrazedProgrammer",
+	description = "(CCJam 2016 contender!)\n\nA rad pack of three games for ComputerCraft 1.76 and later, because it utilizes the pixel characters to look cool as hell!\n\nDr. Dan - A clone of Dr. Mario on the Gameboy\nStacker DX - A remake of 'Stacker' by KingOfGamesYami\nBird Hunt - A carbon copy of Duck Hunt on the good ol' NES",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27079-ccjam-2016-3-game-pak-3-fun-games-in-one-tight-package/",
+	keywords = {"ccjam2016","duck hunt"},
+}

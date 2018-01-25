@@ -5,5 +5,5 @@
 	description = "The 'less' unix command put in ComputerCraft. Sometimes, less is more.",
 	catagory = 1,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25592-less-like-the-unix-command/",
-	keywords = {"eldidi","ldd","more"},
+	keywords = {"eldidi","ldd","more"}
 }

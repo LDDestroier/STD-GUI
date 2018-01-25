@@ -1,7 +1,7 @@
 {
 	title = "Wall Dodge!",
 	url = "http://pastebin.com/raw/fDTts7wz",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A basic game where you dodge walls coming from the right. The space you have to dodge within gets smaller gradually.",
 	catagory = 3,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27230-wall-dodge/",

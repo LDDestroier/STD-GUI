@@ -1,0 +1,9 @@
+{
+	title = "Talk",
+	url = "http://pastebin.com/raw/j6YjhWYp",
+	creator = "GopherAtl",
+	description = "A very simple, unencrypted, decentralized chat program.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/14305-talk-an-uber-simple-chat-program/",
+	keywords = {"chat"},
+}

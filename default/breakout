@@ -1,0 +1,9 @@
+{
+	title = "Breakout! for CC",
+	url = "https://gist.githubusercontent.com/LDDestroier/c7528d95bc0103545c2a/raw/",
+	creator = al.ldd,
+	description = "A basic recreation of Breakout for ComputerCraft. You're a paddle, bounce the ball to break bricks.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26345-breakout/",
+	keywords = {"eldidi","ldd","bricks"},
+}

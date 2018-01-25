@@ -1,0 +1,9 @@
+{
+	title = "ccfBrowse",
+	url = "http://raw.twijnweb.com/ccfbrowse/ccfbrowse",
+	creator = "Twjin",
+	description = "A ComputerCraft program for viewing the ComputerCraft forums! While not the most versitile, if a forum post follows the right format, you can download the program straight from the post!\nCommenting on posts is impossible, and so is logging on, however.",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28182-ccfbrowse-computercraft-forum-program-browser/",
+	keywords = {"computercraft","forums","browsing"},
+}

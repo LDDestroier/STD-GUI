@@ -1,0 +1,9 @@
+{
+	title = "Classic - pretty OOP",
+	url = "http://pastebin.com/raw/MfsdVz6U",
+	creator = "Kouksi44",
+	description = "A rather attractive implementation of object oriented programming in Lua. OOP programming still kinda illudes me, so I can't go on that much about its awesome features and whatnot.\nTo use this, use dofile() instead of os.loadAPI()",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26305-classic-pretty-oop-in-cc/",
+	keywords = {"object oriented"},
+}

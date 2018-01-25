@@ -1,0 +1,9 @@
+{
+	title = "ShEdit",
+	url = "http://pastebin.com/raw/guNvJcZ9",
+	creator = "LoganDark",
+	description = "A major modification to the existing "edit" program  with better syntax highlighting, text selection, copy/paste, actual tab support, and a find command!",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29308-shedit-an-editor-with-proper-syntax-highlighting/",
+	keywords = {"editor","logandark2","text"},
+}

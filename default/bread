@@ -1,0 +1,9 @@
+{
+	title = "Bread - BLittle redirect script",
+	url = "http://pastebin.com/raw/aL6cKC6a",
+	creator = "Bomb Bloke, mostly",
+	description = "A small script that redirects a program through Bomb Bloke's BLittle API. Only works on CC 1.76 and later versions (for Minecraft 1.8 and later), and can be used with the 'monitor' command to achieve stunning resolutions (at the cost of a garbage framerate).\nI called it bread because I felt like it. Please don't get sour, 'doh.",
+	catagory = 1,
+	forumPost = "It doesn't 'ave one. ",
+	keywords = {"blittle","bomb","bloke"},
+}

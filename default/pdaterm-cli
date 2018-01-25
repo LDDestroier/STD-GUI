@@ -1,0 +1,9 @@
+{
+	title = "PDATerm (client)",
+	url = "http://pastebin.com/raw/cwZk4B5S",
+	creator = "jimthenerd1999",
+	description = "A server-based chat program tailored for pocket computers. Client.",
+	catagory = 2,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/18210-pdaterm-a-tele-communication-terminal-for-pocket-computers/",
+	keywords = {"chat"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "Monc 2.0",
+	url = "http://pastebin.com/raw/LxbBS18S",
+	creator = al.ldd,
+	description = "A completely upgraded version of the original Monc (despite not sharing code...rewrite!)\nMirrors the output of the terminal to connected monitors through network cables or direct connections.\nThis completely obsoletes Monc 1, so good on you for clicking this one.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28076-monc-v20-terminal-to-monitors-mirroring/",
+	keywords = {"monitors","mirroring","monk","terminal"},
+}

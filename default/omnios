@@ -1,0 +1,9 @@
+{
+	title = "OmniOS",
+	url = "http://pastebin.com/raw/2DMDuHci",
+	creator = "Creator", --ha ha
+	description = "An advanced, multitasking graphical OS that aims to be able to be used as generally as possible. I would be more specific, if it would bloody work under CCEmuRedux.",
+	catagory = 5,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24321-omnios-the-os-than-can-do-almost-anything/",
+	keywords = {},
+}

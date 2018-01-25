@@ -1,0 +1,9 @@
+{
+	title = "Discover App v7.4",
+	url = "http://discoverapi.xyz/files/download/discoverapp/lua",
+	creator = "~7&adannysmc95",
+	description = "A fully-functional HTTP app store for ComputerCraft. You can make accounts, upload programs, download programs, sort via type, access social networking elements etc. It's really nice.",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22133-app-store-discover-api50/",
+	keywords = {"appstore"},
+}

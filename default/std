@@ -1,7 +1,7 @@
 {
 	title = "~d&0Super Text Downloader",
 	url = "http://pastebin.com/raw/3PBKGR4k",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "An advanced file downloader intended to replace Pastebin, but with many more sources to download from.",
 	catagory = 11,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24739-super-text-downloader-v141-pastebin-clone-downloader/",

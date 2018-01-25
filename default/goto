@@ -1,0 +1,9 @@
+{
+	title = "Simple \"GOTO\" program",
+	url = "http://pastebin.com/raw/HS3Vv8z8",
+	creator = "macss_",
+	description = "A basic program which sends a turtle to specified coordinates using GPS.",
+	catagory = 9,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/18827-simple-goto-program/",
+	keywords = {"turtle","gps","coordinates"},
+}

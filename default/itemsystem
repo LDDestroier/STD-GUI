@@ -1,0 +1,9 @@
+{
+	title = "Item System for Plethora + CCTweaks",
+	url = "http://pastebin.com/raw/6jrfV0sZ",
+	creator = "roger109z",
+	description = "An item management program for use with computers connected to chests.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28438-item-system-for-use-with-plethora-and-cctweaks/",
+	keywords = {"chest","management"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "PSChat Reloaded",
+	url = "http://pastebin.com/raw/hyNxvCHZ",
+	creator = "minizbot2012",
+	description = "HTTP-based chat client. Allows people from any minecraft server (or singleplayer session/emulator) to chat together on CC.",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/21674-http-pschat-reloaded-now-with-titles/",
+	keywords = {"webchat"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "Screentool",
+	url = "https://raw.githubusercontent.com/Wilma456/Computercraft/master/Tools/screentool.lua",
+	creator = "Wilma456",
+	description = "This allows you to make Screenshots! Just start the Screentool. Now you have to press Pause to make a Screenshot. Supports only CraftOS 1.7.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28845-screentool-make-screenshots/",
+	keywords = {"screenshot"},
+}

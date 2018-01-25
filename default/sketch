@@ -1,7 +1,7 @@
 {
 	title = "Sketch",
 	url = "http://pastebin.com/raw/Mm5hd97E",
-	creator = al.oeed,
+	creator = std.aliases.oeed,
 	description = "An advanced paint program that uses the Bedrock API. Can write to three formats, one of which is proprietary, and has many paint tools.",
 	catagory = 1,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/17587-sketch-photoshop-inspired-image-editor-for-computercraft/",

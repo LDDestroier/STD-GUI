@@ -1,0 +1,9 @@
+{
+	title = "Pcan",
+	url = "http://pastebin.com/raw/w8RHW808",
+	creator = al.ldd,
+	description = "A basic, but semi-functional, pastebin client for ComputerCraft. Cannot edit pastes, but can upload/delete on a user's or guest's behalf. It's the API's fault.\nShort for 'PasteCCan'",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25633-pcan-local-pastebin-client/",
+	keywords = {"eldidi","ldd","pastebin","pasteccan"},
+}

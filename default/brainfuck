@@ -1,0 +1,9 @@
+{
+	title = "Brainfuck Interpreter",
+	url = "http://pastebin.com/raw/MmJv002n",
+	creator = "bluebird173",
+	description = "An implementation of the 'brainfuck' esoteric programming language, for CC.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25347-brainf-interpreter/",
+	keywords = {"esoteric","esolanguage","fucking"},
+}

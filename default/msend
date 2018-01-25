@@ -1,7 +1,7 @@
 {
 	title = "mSend",
 	url = "http://pastebin.com/raw/0FW50ZZ1",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A file-sending program that uses the string metatable bug for communication. Patched by CC1.7x, but if re-enabled (somehow), might yet work.",
 	catagory = 6,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/21906-msend-file-transfer-using-the-string-metatable-exploit/",

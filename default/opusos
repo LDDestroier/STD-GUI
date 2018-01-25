@@ -2,7 +2,7 @@
 	title = "Opus OS",
 	url = "http://pastebin.com/raw/sj4VMVJj",
 	creator = "Kepler",
-	description = "An advanced, multitasking, computer/turtle/pocket OS with built-in remote shell access, screen sharing, file manager, and a damn fine UI.\nComes with its own store based on STDGUI! Ain't that something?\n\nThis is an installer, so please "..al.run.." it if you wish to install Opus OS right now.",
+	description = "An advanced, multitasking, computer/turtle/pocket OS with built-in remote shell access, screen sharing, file manager, and a damn fine UI.\nComes with its own store based on STDGUI! Ain't that something?\n\nThis is an installer, so please "..std.aliases.run.." it if you wish to install Opus OS right now.",
 	catagory = 5,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27810-opus-os/",
 	keywords = {"opal","multitasking"},

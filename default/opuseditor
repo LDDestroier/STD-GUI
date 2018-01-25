@@ -1,0 +1,9 @@
+{
+	title = "Opus Editor",
+	url = "http://pastebin.com/raw/pEFCYXX1",
+	creator = "Kepler",
+	description = "The standard edit program of Opus OS, now standalone. Comes with several new features to make it superior to regular 'edit', such as mouse text selecting, built-in copy/cut/paste, a goto line function, multiple undo, and more standard key shortcuts (hold CTRL, then press C or V or X).\n\nThis is not an installer, so DOWNLOAD all you like.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28096-opus-editor/",
+	keywords = {"opusos","undo"},
+}

@@ -1,0 +1,9 @@
+{
+	title = "FileX",
+	url = "http://pastebin.com/raw/AVqAFH8h",
+	creator = "Creator",
+	description = "An advanced graphical file browser.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22108-filex-a-powerful-file-explorer-with-guibig-updateopen-with/",
+	keywords = {"browser","explorer"},
+}

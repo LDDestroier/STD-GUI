@@ -1,7 +1,7 @@
 {
 	title = "On",
 	url = "http://pastebin.com/raw/W4GLNE39",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A program that seeks out all computers connected through modem cables and keeps them on (or off, configurable). Can reboot them at the press of a button. Also a testament to how crap my programs names are.\nUseful for keeping network systems online without having to manually turn each of them on.",
 	catagory = 1,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22622-on-automatic-computer-activator/",

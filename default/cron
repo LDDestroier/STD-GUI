@@ -1,0 +1,9 @@
+{
+	title = "Cron",
+	url = "https://raw.githubusercontent.com/Wilma456/Computercraft/master/Other/cron.lua",
+	creator = "Wilma456",
+	description = "Cron let you run your programs at a custom time",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28136-cron-runs-programs-automatic",
+	keywords = {"cron"},
+}

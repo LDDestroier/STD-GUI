@@ -1,0 +1,9 @@
+{
+	title = "Periodic Table of Elements",
+	url = "http://pastebin.com/raw/vxLQ1fVb",
+	creator = al.ldd,
+	description = "A scrollable, clickable, coloured periodic table of elements for advanced computers! Because it serves no in-game purpose, it's a 'toy'. But, it's a pretty bohring one as far as toys go.",
+	catagory = 4,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26814-periodic-table-of-elements-scrollable-clickable-colored/",
+	keywords = {"eldidi","ldd","science","chemistry",},
+}

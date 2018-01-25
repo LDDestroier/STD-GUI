@@ -1,0 +1,9 @@
+{
+	title = "Solitaire",
+	url = "http://pastebin.com/raw/wg6xLisV",
+	creator = "nitrogenfingers",
+	description = "It's solitaire! Available in the Klondike, Blackjack, Spider Solitaire, and Golf. This game is probably the number one source of procrastination in the realm of computers! This is NOT an installer, so DOWNLOAD all you like.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/20632-nfs-games-page-skyfall-released/",
+	keywords = {"cards","klondike","blackjack","spider"},
+}

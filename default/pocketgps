@@ -1,0 +1,9 @@
+{
+	title = "pocketgps",
+	url = "http://pastebin.com/raw/wQaGzaK7",
+	creator = "Lyqyd",
+	description = "A GPS program tailored for pocket computers that stores waypoints and calculates their distance to you. It can also record paths, and is compatible with Oeed's Ultimate Door Lock.",
+	catagory = 2,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/17740-pocketgps-waypoints-heading-and-distance/",
+	keywords = {},
+}

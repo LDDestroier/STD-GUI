@@ -1,0 +1,9 @@
+{
+	title = "LDDFM",
+	url = "http://pastebin.com/raw/wfdb986Z",
+	creator = al.ldd,
+	description = "An API-based file manager/picker intended for picking a specific file/folder without the use of a read() prompt.\nCan be scaled to fit into a specific set of coordinates, so you can cram it into an existing GUI or CLI.",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27584-lddfm-an-api-based-file-manager-for-your-programs/",
+	keywords = {"eldidi","ldd","file","folder","manager","picker"}
+}

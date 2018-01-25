@@ -1,0 +1,9 @@
+{
+	title = "Whisk File Transmitter",
+	url = "http://pastebin.com/raw/4ZRHE4Ar",
+	creator = al.ldd,
+	description = "A file transmitting program that has the ability to send folders (including root) as well as individual files. Has GUI and CLI. It's completely encrypted too, so that's nice, even if it's Valithor's encryption API and not AES.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26063-whisk-filefolder-transfer/",
+	keywords = {"eldidi","ldd","encrypted"},
+}

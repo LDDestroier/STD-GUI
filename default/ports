@@ -1,7 +1,7 @@
 {
 	title = "Ports",
 	url = "http://pastebin.com/raw/XxkBiYJ6",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A utility to open/close modem channels, view all open channels, send modem messages, or lock all modem communication altogether.",
 	catagory = 6,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24861-ports-a-useful-tool-for-managing-modems/",

@@ -1,0 +1,9 @@
+{
+	title = "LightText",
+	url = "http://pastebin.com/raw/PFa3LY1Y",
+	creator = "supernicejohn",
+	description = "A text editor with Lua syntax highlighting.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28045-lighttext/",
+	keywords = {"editor","highlighting"}
+}

@@ -1,0 +1,9 @@
+{
+	title = "trace",
+	url = "http://pastebin.com/raw/CYQp63kb",
+	creator = "Bomb Bloke",
+	description = "Stack tracing for finding errors in programs. Usually better than just running a buggy program and seeing what red text washes ashore.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27844-trace-simple-stack-traces-for-errors/",
+	keywords = {"stack","tracing","trace","errors"},
+}

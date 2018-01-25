@@ -1,0 +1,9 @@
+{
+	title = "Battle",
+	url = "http://pastebin.com/raw/MbvMiiCU",
+	creator = "Scoptile",
+	description = "A turn-based game where you fight an enemy AI by choosing to increase attack/defence, attack, or heal in turn-based combat. It's quite well balanced.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24112-battle/",
+	keywords = {"turnbased"},
+}

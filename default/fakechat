@@ -1,7 +1,7 @@
 {
 	title = "FakeChat Player Chat Spoofer",
 	url = "http://pastebin.com/raw/n3K9Nt3D",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "This connects to fakechat servers, or can be used directly on command computers. Spoof the chat of players by typing in a message, and it converts to a JSON format and runs it through tellraw. This is both a client and server!\nOh, and be responsible, eh?",
 	catagory = 10,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28139-fakechat-player-chat-spoofing-via-commandstellraw/",

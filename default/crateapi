@@ -1,0 +1,9 @@
+{
+	title = "Crate API",
+	url = "http://pastebin.com/raw/QNhhry4M",
+	creator = "ItsRodrick",
+	description = "A command API that spawns chests of items from the sky as falling sand entities, like supply drops from airplanes!",
+	catagory = 10,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/22805-crate-api-summon-chests-with-items/",
+	keywords = {"drops"},
+}

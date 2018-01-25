@@ -1,0 +1,9 @@
+{
+	title = "RecGif",
+	url = "http://pastebin.com/raw/MgMmd2dC",
+	creator = "Bomb Bloke",
+	description = "A GIF recorder! Saves a recording of your screen as an animated GIF image. This program is super useful for making screenshots of your programs, if you can't use something like Gyazo GIF.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24840-recgif/",
+	keywords = {"jif","recorder","screenshot"},
+}

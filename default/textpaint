@@ -1,0 +1,9 @@
+{
+	title = "Textpaint",
+	url = "https://raw.githubusercontent.com/Wilma456/Computercraft/master/Programs/textpaint.lua",
+	creator = "Wilma456",
+	description = "A Paint Program for .nft files, a format that allows text as well as background colors.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28859-textpaint-a-better-paint-program/",
+	keywords = {"nft"},
+}

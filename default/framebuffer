@@ -1,0 +1,9 @@
+{
+	title = "Lyqyd's Framebuffer API",
+	url = "http://pastebin.com/raw/Aaza6h5v",
+	creator = "Lyqyd",
+	description = "Framebuffer API used by nsh and maybe other things. A replacement to the poorly-coded window API.",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/6472-nsh-now-with-previous-session-resume/",
+	keywords = {"remote desktop"},
+}

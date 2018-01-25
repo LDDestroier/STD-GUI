@@ -1,0 +1,9 @@
+{
+	title = "Mouse File Manager",
+	url = "http://pastebin.com/raw/jKZBPFTs",
+	creator = "BigSHinyToys",
+	description = "A graphical file manager that uses the mouse.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/5509-advanced-computer-mouse-file-browser/",
+	keywords = {"browser","explorer"},
+}

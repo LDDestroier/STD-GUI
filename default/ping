@@ -1,0 +1,9 @@
+{
+	title = "Ping",
+	url = "http://pastebin.com/raw/R4DKXbzm",
+	creator = al.ldd,
+	description = "An HTTP pinging program. Pings a URL however many times, returns the delay each time, and returns the average delay in ticks.",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24981-an-http-ping-program/",
+	keywords = {"eldidi","ldd","pong"},
+}

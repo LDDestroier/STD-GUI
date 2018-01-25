@@ -1,0 +1,9 @@
+{
+	title = "CC Tar",
+	url = "http://pastebin.com/raw/bcgmNT2Q",
+	creator = "columna1",
+	description = "An implementation of the TAR packaging standard in CC.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/18280-cc-tar-create-and-unpack-real-tar-files-in-cc/",
+	keywords = {"tarball","archiver"},
+}

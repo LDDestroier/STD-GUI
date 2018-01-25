@@ -1,7 +1,7 @@
 {
 	title = "QuickDraw!",
 	url = "http://pastebin.com/raw/uGTzMxNL",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A game where you quickly shoot someone in a desert. Kinda like Wild Gunman on NES, but for CC. Which is less apt for making games than a 30+ year old machine, somehow.",
 	catagory = 3,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26452-quickdraw-western-shootout-game/",

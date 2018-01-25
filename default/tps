@@ -1,7 +1,7 @@
 {
 	title = "Turtle Positioning System",
 	url = "http://pastebin.com/raw/PsTiQ5eu",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "For wireless turtles.\nTurn your single turtle into a GPS server! Every time it gets a GPS request, it continutes moving in a set 2*2*2 pattern to simulate four GPS server PCs. For the frugal player!",
 	catagory = 9,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28060-tps-turtle-positioning-system-emulate-a-four-computer-gps-cluster-with-one-turtle/",

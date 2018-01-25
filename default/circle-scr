@@ -1,7 +1,7 @@
 {
 	title = "Circle Screensaver",
 	url = "http://pastebin.com/raw/rXQhBupz/",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "A really trippy screensaver that makes lots of super-colorful concentric circles on your screen. It redraws the whole screen every frame, so I wouldn't use it in multiplayer. Oh, who am I kidding...",
 	catagory = 4,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26618-circular-screensaver/",

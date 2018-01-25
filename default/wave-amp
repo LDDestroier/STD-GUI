@@ -1,0 +1,9 @@
+{
+	title = "wave-amp",
+	url = "http://pastebin.com/raw/pAEiHKK1",
+	creator = "CrazedProgrammer",
+	description = "A player of NBS (Note Block Studio) files using iron note blocks in ComputerCraft! It comes with a built-in sexy UI, a sexy visualizer, various play modes (normal, stop, repeat, shuffle), and has theming capability!\nBecause it uses iron note blocks, wave-amp requires either a command computer or MinimalPeripherals.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28091-wave-amp-a-fully-featured-music-player/",
+	keywords = {"noteblockstudio","nbs","musical","ironnoteblock"},
+}

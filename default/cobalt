@@ -1,0 +1,9 @@
+{
+	title = "Cobalt",
+	url = "http://pastebin.com/raw/h5h4fm3t",
+	creator = "CompuTech",
+	description = "(CCJam 2016 contender!)\n\nA callback wrapper for ComputerCraft Lua, similarly to how Love2D handles. The aim is to make programming in ComputerCraft easier and more centralized. This is also an installer file, so do be sure to "..al.run.." it.\n\nThis comes bundled with Cobalt UI, a graphical framework used for interface design. If you want that, select 'Y' on the installer.",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27064-cobalt-a-callback-wrapper-for-computercraft/",
+	keywords = {"ccjam2016","framework","ui"},
+}

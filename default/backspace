@@ -1,0 +1,9 @@
+{
+	title = "Backspace",
+	url = "http://pastebin.com/raw/NF5uxU2n",
+	creator = "H4X0RZ",
+	description = "Backspace is an open-source alternative to Pastebin designed mainly to store small snippets of code (although you could store big things on it.) This is the API for CraftOS.",
+	catagory = 11,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/24850-backspace-the-opensource-pastebin-alternative/",
+	keywords = {"pastebin",},
+}

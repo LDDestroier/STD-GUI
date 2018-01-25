@@ -1,0 +1,9 @@
+{
+	title = "Bank Vault",
+	url = "http://pastebin.com/raw/q7XJD7Q0",
+	creator = "nitrogenfingers",
+	description = "A recreation of the classic Japanese puzzle game Sokoban, where you push blocks into goal zones to proceed. This is an installer, so "..al.run.." it instead of downloading.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/20283-game-bank-vault/",
+	keywords = {"sokoban","puzzle","shoveit"},
+}

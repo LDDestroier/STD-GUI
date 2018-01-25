@@ -1,0 +1,9 @@
+{
+	title = "TrollOS",
+	url = "http://pastebin.com/raw/dPqkFjKq",
+	creator = "ExplosiveFerrets",
+	description = "While not an OS, and not TRULY malicious, it's not a toy, I'll just put it under Malicious (7). A joke 'OS' that gives custom error messages instead of an actual shell.",
+	catagory = 7,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25033-trollos-version-20-released-new-features/",
+	keywords = {},
+}

@@ -1,0 +1,9 @@
+{
+	title = "Glorified Help Viewer",
+	url = "http://pastebin.com/raw/gzz1Gt4V",
+	creator = "Admicos",
+	description = "A fancy schmancy way of looking at program help files. Uses a proprietary format (.ghv), but it downloads a precompiled list of program help texts.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27898-ghv-glorified-help-viewer/",
+	keywords = {"fancy","schmancy","graphical","gui","manual"},
+}

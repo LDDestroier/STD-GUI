@@ -1,7 +1,7 @@
 {
 	title = "Paintutils Extra",
 	url = "https://pastebin.com/raw/7XAmsAbX",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "An extension to the existing paintutils API that adds stretching, centering, merging, and various optimizations/extra functions.",
 	catagory = 8,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29109-paint-utils-extra-the-essential-api-extention-for-your-paintutils-needs/",

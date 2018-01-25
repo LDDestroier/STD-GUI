@@ -1,0 +1,9 @@
+{
+	title = "Wolf3d-style 3D engine",
+	url = "http://pastebin.com/raw/qpV90qbM",
+	creator = "GopherAtl",
+	description = "This is a 3-D raycaster engine demo reminiscent of the old game Wolfenstein 3-D, where all walls are aligned to a grid and of a single height. Did you know this engine was used for Maze-3D, which is a treasure disk? I thought that was interesting.",
+	catagory = 4,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/10786-wolf3d-style-3d-engine-proof-of-concept/",
+	keywords = {"3-d","wolfenstein","raycasters","3dmaze"},
+}

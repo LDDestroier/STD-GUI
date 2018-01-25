@@ -1,0 +1,9 @@
+{
+	title = "Net Shell PUT command",
+	url = "http://pastebin.com/raw/zeS6uFY7",
+	creator = "Lyqyd",
+	description = "The PUT command for nsh. Allows you to put files onto a remote host.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/6472-nsh-now-with-previous-session-resume/",
+	keywords = {"remote desktop"},
+}

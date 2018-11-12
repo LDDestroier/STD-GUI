@@ -1,0 +1,9 @@
+{
+  title = "DacStorage",
+  url = "http://pastebin.com/raw/Ct3qAdnM",
+  creator = "TheDacinator",
+  description = "An alternative to file hosting sites like Dropbox or Google Drive, but for ComputerCraft! Uses HTTPS encrypted connections, too, so that's good.",
+  catagory = 11,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29629-dacstorage-a-dropbox-alternative-that-works-with-cc/",
+  keywords = {"dropbox","google","drive","hosting","file"}
+}

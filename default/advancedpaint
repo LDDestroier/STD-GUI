@@ -1,0 +1,9 @@
+{
+  title = "Advanced Paint",
+  url = "http://pastebin.com/raw/AWbyyx5E",
+  creator = "HPWebcamAble",
+  description = "A paint program tailored specifically to use on multiple advanced monitors at the same time. Useful for making a room out of monitors and painting the walls.",
+  catagory = 1,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/21558-advanced-paint/",
+  keywords = {"ap","monitors"}
+}

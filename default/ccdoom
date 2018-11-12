@@ -1,0 +1,9 @@
+{
+	title = "Doom",
+	url = "http://pastebin.com/raw/8RwQQk3B",
+	creator = "Xelostar",
+	description = "A flippin' game of Doom, created in Xelostar's 3-D polygonal engine.\nWhile it has maps more in line with Wolfenstein 3-D, enemies are 3-D models and you've got a gun.\nThis is an installer, so I implore that you "..al.run..".",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29365-doom-ccs-first-first-person-shooter-with-online-highscores/",
+	keywords = {"ccdoom","wolfenstein3d","wolf3d","id","3-d"}
+}

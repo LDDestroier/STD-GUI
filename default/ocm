@@ -1,0 +1,9 @@
+{
+  title = "Ore Collecting Miner",
+  url = "http://pastebin.com/raw/gkz5sgZ8",
+  creator = "BrunoZockt",
+  description = "Digs a series of tunnels of a configurable length, and actively seeks out ores. Automatic refuels, floor placement, updating, trash disposing... It has it all, man.",
+  catagory = 9,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29683-ore-collecting-miner-a-very-advanced-mining-program/",
+  keywords = {"tunnels","quarrying"}
+}

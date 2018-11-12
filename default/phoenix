@@ -1,0 +1,9 @@
+{
+  title = "Phoenix - image editor",
+  url = "http://pastebin.com/raw/eGHYu04Z",
+  creator = "-DECE-",
+  description = "An easy to use, pretty looking image editor. Outputs in NFP, NFT, SKCH, and a fake version of PNG.",
+  catagory = 5,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29635-phoenix-image-editor/",
+  keywords = {"picture","sketch","paint","drawing"}
+}

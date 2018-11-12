@@ -1,0 +1,9 @@
+{
+  title = "gitget v2",
+  url = "https://pastebin.com/raw/W5ZkVYSi",
+  creator = "apemanzilla",
+  description = "A simple, lightweight Github repository downloader.",
+  catagory = 11,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/17387-gitget-version-2-release/",
+  keywords = {"github","repository","downloader"}
+}

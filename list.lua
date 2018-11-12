@@ -336,7 +336,7 @@ if listings then
 	std.storeURLs = {}
 	for k,v in pairs(listings) do
 		if v.name then
-			simulDownloads[v.name] = fs.combine(listURL, v.name)
+			simulDownloads[v.name] = (listURL .. "/" .. v.name)
 			amnt = amnt + 1
 		end
 	end

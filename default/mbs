@@ -1,0 +1,9 @@
+{
+  title = "Mildly Better Shell",
+  url = "https://raw.githubusercontent.com/SquidDev-CC/mbs/master/mbs.lua",
+  creator = "SquidDev",
+  description = "'Mildly Better Shell' is a series of extensions to the default shell that make it, er, mildly better. A full list of features is on the forum post, but it's some good stuff man, believe me.\n\nMake sure to "..al.run..", AND with the argument 'install' to properly install it.",
+  catagory = 1,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29253-mildly-better-shell-various-extensions-to-the-default-shell/",
+  keywords = {"clamshell","repl","scrollback"},
+}

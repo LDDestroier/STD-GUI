@@ -1,0 +1,9 @@
+{
+  title = "NeoVariable Client API",
+  url = "https://raw.githubusercontent.com/LDDestroier/neovari/master/neovari",
+  creator = al.ldd,
+  description = "A networking API that stores 'cloud variables' on neovariable servers, as well as having network 'events', to make creating modem-based multiplayer games or applications easier.",
+  catagory = 8,
+  forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29392-neovariable-modem-based-cloud-variable-solution-with-support-for-events/",
+  keywords = {"varsword","neovarsword","network","modem"}
+}

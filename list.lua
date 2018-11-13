@@ -1,7 +1,7 @@
 local repoName = "LDDestroier/STD-GUI"
 local repoPath = "default"
 
-local token = "9c27604ca4f3c394a91fd5ecb5761341ccedca7e"
+local token = "0f7e97e6524dcb03f79978ff88235a510f5ff4ae"
 
 std = std or {}
 local verbose = true

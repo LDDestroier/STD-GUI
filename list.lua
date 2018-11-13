@@ -4,7 +4,7 @@ local repoPath = "default"
 local token = "0f7e97e6524dcb03f79978ff88235a510f5ff4ae"
 
 std = std or {}
-local verbose = true
+local verbose = false
 
 std.aliases = {
 	ldd = "~f&1LDD&8estroier",

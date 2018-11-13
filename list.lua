@@ -339,7 +339,7 @@ if listings then
 	std.storeURLs = {}
 	for k,v in pairs(listings) do
 		if v.name then
-			simulDownloads[v.name] = ("https://raw.githubusercontent.com/" .. repoName .. "/master/" .. repoPath .. "/" .. v.name .. "?access_token=" .. token)
+			simulDownloads[v.name] = ("https://raw.githubusercontent.com/" .. repoName .. "/master/" .. repoPath .. "/" .. v.name)
 			amnt = amnt + 1
 		end
 	end

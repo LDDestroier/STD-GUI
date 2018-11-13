@@ -1,4 +1,4 @@
-local listURL = "https://api.github.com/repos/LDDestroier/STD-GUI/contents/default"
+local repo = "LDDestroier/STD-GUI"
 
 std = std or {}
 local verbose = true
@@ -328,7 +328,7 @@ local function getSTDStoreList(files) --thanks squiddev
 	return true
 end
 
-local listings = http.get(listURL)
+local listings = http.get("https://api.github.com/repos/" .. repo .. "/contents/default")
 local simulDownloads = {}
 local amnt = 0
 if listings then
@@ -336,7 +336,7 @@ if listings then
 	std.storeURLs = {}
 	for k,v in pairs(listings) do
 		if v.name then
-			simulDownloads[v.name] = (listURL .. "/" .. v.name)
+			simulDownloads[v.name] = ("https://raw.githubusercontent.com/" .. repo .. "/master/" .. v.name)
 			amnt = amnt + 1
 		end
 	end

@@ -1,9 +1,9 @@
 {
 	title = "PAIN paint program",
-	url = "http://pastebin.com/raw/wJQ7jav0",
+	url = "https://raw.githubusercontent.com/LDDestroier/CC/master/pain.lua",
 	creator = std.aliases.ldd,
-	description = "A paint program that saves in a table format, and has a scrolling canvas. Supports NFP, NFT, BLT, GIF, and UCG as well.\nSince I made it, lemme tell you it's a million times better than the default paint program.",
+	description = "An advanced, yet simple to use paint program that saves in a table format, and has a scrolling canvas. Supports NFP, NFT, BLT, UCG, and GIF as well.\nSince I made it, lemme tell you right now it's a million times better than the default paint program, and kicks Sketch's ass too. Yeah.",
 	catagory = 1,
-	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26418-pain-my-first-paint-program/",
-	keywords = {"eldidi","ldd",},
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26418-pain-nfpnftbltgifucg-support-block-characters-undo-buffer-fill-tool-and-an-infinite-scrollable-canvas/",
+	keywords = {"eldidi","ldd","drawing"},
 }

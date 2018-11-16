@@ -1,0 +1,9 @@
+{
+	title = "TRON",
+	url = "https://raw.githubusercontent.com/LDDestroier/CC/master/tron",
+	creator = std.aliases.ldd,
+	description = "A Tron lightcycle game that uses modems for two-player multiplayer, and a remake of PixelToast's own Tron game. But, this version of Tron has much improved visuals, and less hackable game sessions. Play my damned game.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29748-tron-lightcycle-game-multiplayer/",
+	keywords = {"lightcycles","multiplayer","spaceparanoids","graphics"},
+}

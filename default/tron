@@ -1,6 +1,6 @@
 {
 	title = "TRON",
-	url = "https://raw.githubusercontent.com/LDDestroier/CC/master/tron",
+	url = "https://raw.githubusercontent.com/LDDestroier/CC/master/tron.lua",
 	creator = std.aliases.ldd,
 	description = "A Tron lightcycle game that uses modems for two-player multiplayer, and a remake of PixelToast's own Tron game. But, this version of Tron has much improved visuals, and less hackable game sessions. Play my damned game.",
 	catagory = 3,

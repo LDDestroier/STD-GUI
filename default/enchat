@@ -1,7 +1,7 @@
 {
 	title = "Enchat v3.0",
 	url = "https://github.com/LDDestroier/enchat/raw/master/enchat3.lua",
-	creator = al.ldd,
+	creator = std.aliases.ldd,
 	description = "An AES-encrypted, decentralized, colorized, animated, feature-full modem/HTTP chat program. Uses gollark's Skynet API for internet chat. Supports &{&k&} text obfuscation, image sending, and more!\n\nIt's my greatest program! Put it everywhere!",
 	catagory = 6,
 	forumPost = "None yet. ",

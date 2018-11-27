@@ -4,6 +4,6 @@
 	creator = std.aliases.ldd,
 	description = "An AES-encrypted, decentralized, colorized, animated, feature-full modem/HTTP chat program. Uses gollark's Skynet API for internet chat. Supports &{&k&} text obfuscation, image sending, and more!\n\nIt's my greatest program! Put it everywhere!",
 	catagory = 6,
-	forumPost = "None yet. ",
-	keywords = {"eldidi","ldd","encrypted","AES","skynet"},
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29724-enchat-30-encrypted-decentralized-colorized-pictochat-capable-skynet-compatible-chat/",
+	keywords = {"eldidi","ldd","encrypted","AES","skynet","http"},
 }

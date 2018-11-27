@@ -6,7 +6,7 @@ local repoPath = tArg[2] or "default"
 local token = "0f7e97e6524dcb03f79978ff88235a510f5ff4ae"
 
 std = std or {}
-local verbose = false
+local verbose = true
 
 std.aliases = {
 	ldd = "~f&1LDD&8estroier",
@@ -287,6 +287,7 @@ local function getSTDStoreList(files) --thanks squiddev
 		http.request(url)
 		urls[url] = name
 	end
+	local contents
 	while true do
 		if remaining == 0 then
 			break
@@ -298,9 +299,9 @@ local function getSTDStoreList(files) --thanks squiddev
 			if verbose then
 				write(".")
 			end
-			local contents = handle.readAll()
+			contents = handle.readAll()
 			if contents then
-				std.storeURLs[name] = textutils.unserialize(contents)
+				std.storeURLs[name] = textutils.unserialize(contents:gsub("std.aliases.%a+", function(i) return "\""..load("return "..i,nil,nil,_ENV)().."\"" end))
 			else
 				std.storeURLs[name] = {
 					title = "ERROR ("..name..")",
@@ -341,7 +342,7 @@ if listings then
 	std.storeURLs = {}
 	for k,v in pairs(listings) do
 		if v.name then
-			simulDownloads[v.name] = ("https://raw.githubusercontent.com/" .. repoName .. "/master/" .. repoPath .. "/" .. v.name)
+			simulDownloads[v.name] = v.download_url
 			amnt = amnt + 1
 		end
 	end

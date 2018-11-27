@@ -1,0 +1,9 @@
+{
+	title = "Enchat v2.2",
+	url = "http://pastebin.com/raw/JtgbWdV5",
+	creator = std.aliases.ldd,
+	description = "An encrypted, decentralized, color-formatted chat program that encrypts chat messages with both a key and os.time(). Supports text obfuscation via &{&k&}. Uses the AES encryption API.\nThis is probably my ("..std.aliases.ldd..") best program, next to your's truly, and of course Enchat3 (which you should get instead, really).",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25290-enchat-v20-encrypted-decentralized-chat/",
+	keywords = {"eldidi","ldd","encrypted","AES"},
+}

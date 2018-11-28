@@ -3,10 +3,11 @@ local tArg = {...}
 local repoName = tArg[1] or "LDDestroier/STD-GUI"
 local repoPath = tArg[2] or "default"
 
+-- don't get any funny ideas, this key has zero permissions
 local token = "0f7e97e6524dcb03f79978ff88235a510f5ff4ae"
 
 std = std or {}
-local verbose = true
+local verbose = false
 
 std.aliases = {
 	ldd = "~f&1LDD&8estroier",

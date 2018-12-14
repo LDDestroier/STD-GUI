@@ -4,6 +4,7 @@
 	creator = "Detective_Smith",
 	description = "Multi/singleplayer open-world survival game similar to Minicraft. Top-down, and very advanced. This link downloads the installer file, so use the "..std.aliases.run.." function.",
 	catagory = 3,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/21350-miniaturecraft-2x-alpha-edition/",
 	keywords = {"multiplayer","minecraft"},
 }

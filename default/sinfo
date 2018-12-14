@@ -4,6 +4,7 @@
 	creator = "Waitdev_",
 	description = "A program that grabs information about minecraft servers and displays it. Whether it's online/offline, amount of players, server name and description...it can do it all! This is an install script, not the program itself, so use the "..std.aliases.run.." command.. As it uses the 'pastebin' command during installation, do NOT name this 'sinfo'.",
 	catagory = 11,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25742-sinfo-server-information-grabber/",
 	keywords = {"server","ping"},
 }

@@ -4,6 +4,7 @@
 	creator = "nitrogenfingers",
 	description = "A simple game where you control falling pillars composed of three colours, and you match three or more in a row (or diagonally.) This is an installer, so "..std.aliases.run.." it.",
 	catagory = 3,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/20632-nfs-games-page-skyfall-released/",
 	keywords = {},
 }

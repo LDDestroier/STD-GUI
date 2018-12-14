@@ -4,6 +4,7 @@
 	creator = "nitrogenfingers",
 	description = "A carbon copy of the classic video game Lode Runner. It really is, it's that faithful!\nThis is an installer, not the game itself, so use the "..std.aliases.run.." command.",
 	catagory = 3,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/13269-gold-runner/",
 	keywords = {"lode runner"},
 }

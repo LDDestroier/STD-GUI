@@ -1,0 +1,12 @@
+pastebin run 
+
+{
+	title = "PotatOS",
+	url = "http://pastebin.com/raw/RM13UGFa",
+	creator = "gollark",
+	description = "A shell operating system, jam packed full of backdoors and useless bloatware. Only use if you don't mind having your computer sign restraining orders on you.\nIt's an installer, so " .. std.aliases.run .. " it, if you dare.",
+	catagory = 5,
+	forumPost = "Doesn't deserve one. ",
+  run = true,
+	keywords = {"spud","terrible","backdoor"}
+}

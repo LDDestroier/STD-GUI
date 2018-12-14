@@ -16,15 +16,19 @@
 	This is a stable release. You fool!
 --]]
 
-local tsv = term.current().setVisible --comment out if you are debugging
+local tsv = function(visible)
+	if term.current().setVisible then
+		term.current().setVisible(visible) -- comment out if you are debugging
+	end
+end
 
-local isBeta = false --changes the update URL
+local isBeta = false -- changes the update URL
 
-if not http then --why, you...
+if not http then
 	return false, printError("HTTP must be enabled to use STD. Contact an administrator for assistance.")
 else
-	if not http.checkURL("http://pastebin.com") then
-		return false, printError("For some reason, Pastebin.com is whitelisted. Abort.")
+	if not http.checkURL("http://github.com") then
+		return false, printError("For some reason, Github.com is whitelisted. Abort.")
 	end
 end
 local scr_x, scr_y = term.getSize()
@@ -34,21 +38,22 @@ local relativePath = false
 local doColorize = true
 
 if type(std) ~= "table" then std = {} end
+std.std_version = 101 -- to prevent updating to std command line
 
-local overrideNoOS = false --prevent SimSoft functions, even if it's installed
-local isSimSoft = false --special integration into SimSoft!
-local isAxiom = false --special integration into Axiom!
+local overrideNoOS = false 	-- prevent SimSoft functions, even if it's installed
+local isSimSoft = false 	-- special integration into SimSoft!
+local isAxiom = false 		-- special integration into Axiom!
 std.channel = "STD"
 std.prevChannel = std.channel
 
 std.channelURLs = { --special pastebin URLs for getting a list of files.
-	["STD"] = "https://raw.githubusercontent.com/LDDestroier/STD-GUI/master/list.lua", --default store list on github, more updated
-	["STD PB"] = "http://pastebin.com/raw/zVws7eLq", --default store list on pastebin
-	["Discover"] = "http://pastebin.com/raw/9bXfCz6M", --owned by dannysmc95
---	["OnlineAPPS"] = "http://pastebin.com/raw/g2EnDYLp", --owned by Twijn, but discontinued.
-	["STD-Media"] = "https://pastebin.com/raw/3JZHXTGL", --list of pictures and music
+	["STD"] = "https://raw.githubusercontent.com/LDDestroier/STD-GUI/master/list.lua", -- default store list on github, more updated
+--	["STD PB"] = "http://pastebin.com/raw/zVws7eLq", 	-- default store list on pastebin, but just use github, man
+	["Discover"] = "http://pastebin.com/raw/9bXfCz6M", 	-- owned by dannysmc95
+--	["OnlineAPPS"] = "http://pastebin.com/raw/g2EnDYLp", 	-- owned by Twijn, but discontinued.
+	["STD-Media"] = "https://pastebin.com/raw/3JZHXTGL", 	-- list of pictures and music
 }
-local palate
+local palate -- yes I know shut up
 palate = {
 	pleasewait = {
 		txt = colors.lightGray,
@@ -124,7 +129,7 @@ palate = {
 	}
 }
 
-local getEvents = function(...)
+local getEvents = function(...) 	-- basically os.pullEvent() but with multiple filters
 	local arg, output = table.pack(...)
 	while true do
 		output = {os.pullEvent()}
@@ -156,9 +161,9 @@ end
 
 std.stdList = "."..std.channel:lower().."_list"
 
-if (fs.isDir("SimSoft/Data") and fs.isDir("SimSoft/SappS")) and (not overrideNoOS) then --checks if SimSoft is installed
+if (fs.isDir("SimSoft/Data") and fs.isDir("SimSoft/SappS")) and (not overrideNoOS) then -- checks if SimSoft is installed
 	isSimSoft = true
-elseif (fs.isDir("Axiom") and fs.exists("Axiom/sys.axs")) and (not overrideNoOS) then --checks if Axiom is installed
+elseif (fs.isDir("Axiom") and fs.exists("Axiom/sys.axs")) and (not overrideNoOS) then 	-- checks if Axiom is installed
 	isAxiom = true
 end
 
@@ -168,10 +173,9 @@ local cprint = function(txt,y)
 	term.write(txt)
 end
 
-local scroll = 1 --one is the loneliest number...weaboo
-local scrollX = 1 --to view longer program names
+local scroll = 1 	-- one is the loneliest number...weeb
+local scrollX = 1 	-- to view longer program names
 local maxScroll
-std.std_version = 101 --to prevent updating to std command line
 
 local setMaxScroll = function(catagory)
 	local output = 0
@@ -288,7 +292,7 @@ for k,v in pairs(colors_names) do
 	blit_names[v] = k
 end
 
-local codeNames = { --just for checking, not for any translation
+local codeNames = { -- just for checking, not for any translation
 	["r"] = "reset",
 	["{"] = "stopFormatting",
 	["}"] = "startFormatting",
@@ -417,14 +421,15 @@ textToBlit = function(str,substart,substop)
 end
 
 local writef = function(txt,noWrite,substart,substop)
+	local cx,cy
 	if doColorize then
 		local text, textCol, bgCol, usedformats = textToBlit(txt,substart,substop)
 		local out = blitWrap(text,textCol,bgCol,noWrite)
 		return out, #text, usedformats
 	else
 		if noWrite then
-			local cx,cy = term.getCursorPos()
-			return math.floor((cx+#cf(txt))/scr_x), #cf(txt), {} --this is approximate, and might mess up with multiline strings
+			cx,cy = term.getCursorPos()
+			return math.floor((cx+#cf(txt))/scr_x), #cf(txt), {} -- this is approximate, and might mess up with multiline strings
 		else
 			return write(txt), #txt, {}
 		end
@@ -439,9 +444,7 @@ local runURL = function(url, ...)
 	local program = http.get(url)
 	if not program then return false end
 	program = program.readAll()
-	local func = load(program)
-	setfenv(func, getfenv())
-	return func(...)
+	return load(program, nil, nil, _ENV)(...)
 end
 
 local bow = function()
@@ -1230,10 +1233,10 @@ local STDdownloadPrompt = function(item)
 	end
 	local savepath
 	if isAxiom then
-		if std.storeURLs[itname].catagory == 8 then --if an API
-			savepath = fs.combine("/home/APIs",itname)
+		if std.storeURLs[itname].catagory == 8 then -- f an API
+			savepath = fs.combine("/home/APIs", itname)
 		else
-			savepath = fs.combine("/Axiom/programs",itname)..".app"
+			savepath = fs.combine("/Axiom/programs", itname) .. ".app"
 		end
 	else
 		bow()
@@ -1273,7 +1276,7 @@ local STDdownloadPrompt = function(item)
 			sleep(0.6)
 		else
 			if isAxiom then
-				if std.storeURLs[itname].catagory ~= 8 then --no need for an icon for an api, wouldn't you say
+				if std.storeURLs[itname].catagory ~= 8 then -- no need for an icon for an api, wouldn't you say
 					local file = fs.open(fs.combine("home/Desktop",itname)..".lnk", "w")
 					file.write(savepath)
 					file.close()
@@ -1315,7 +1318,7 @@ SimSoftDownloadPrompt = function(object)
 end
 
 local doCategoryMenu = function()
-	local mcursor = catag --(not term.isColor()) and (catag or 0) or false
+	local mcursor = catag -- (not term.isColor()) and (catag or 0) or false
 	local cats,longth = renderCatagoryMenu(true,mcursor)
 	local evt,butt,x,y
 	while true do
@@ -1358,7 +1361,7 @@ local doCategoryMenu = function()
 end
 
 local doChannelMenu = function()
-	local mcursor = 1 --(not term.isColor()) and 1 or false
+	local mcursor = 1 -- (not term.isColor()) and 1 or false
 	local yposes, longth = renderChannelMenu(mcursor)
 	local evt,butt,x,y
 	while true do
@@ -1407,7 +1410,7 @@ local STDViewEntry = function(url)
 	end
 end
 
-local doEverything = function() --do I have to do EVERYTHING?
+local doEverything = function() -- do I have to do EVERYTHING?
 	if not std.storeURLs then
 		pleaseWait()
 		std.getSTDList(std.prevChannel)
@@ -1460,20 +1463,18 @@ local doEverything = function() --do I have to do EVERYTHING?
 						if butt == keys.q then
 							sleep(0)
 							break
-						elseif butt == keys.d then --hehe
+						elseif butt == keys.d then
 							sleep(0)
 							STDdownloadPrompt(yposes[y])
-							--break
 						elseif butt == keys.v then
 							sleep(0)
 							STDViewEntry(yposes[y].url)
-							--break
 						elseif (butt == keys.i) then
 							sleep(0)
 							if isSimSoft then
 								SimSoftDownloadPrompt(yposes[y])
 							elseif isAxiom then
-								STDdownloadPrompt(yposes[y]) --axiom only changes the 
+								STDdownloadPrompt(yposes[y])
 							end
 							--break
 						end
@@ -1537,9 +1538,9 @@ local doEverything = function() --do I have to do EVERYTHING?
 		elseif evt[1] == "mouse_drag" then
 			if doScrollBar then
 				local my = evt[4]
-				if my > scr_y then --operating systems might allow this to be true
+				if my > scr_y then -- operating systems might allow this to be true
 					my = scr_y
-				elseif my < 1 then --this too
+				elseif my < 1 then -- this too
 					my = 1
 				end
 				if my > 1 then
@@ -1562,7 +1563,7 @@ local doEverything = function() --do I have to do EVERYTHING?
 				scroll = 1
 			elseif evt[2] == keys['end'] then
 				scroll = maxScroll
-			elseif evt[2] == keys.h then --help screen!
+			elseif evt[2] == keys.h then -- help screen!
 				displayHelp(false)
 			elseif evt[2] == keys.right then
 				scrollX = scrollX + 1
@@ -1606,7 +1607,7 @@ local doEverything = function() --do I have to do EVERYTHING?
 			elseif evt[2] == keys.f1 then
 				doCategoryMenu()
 			elseif evt[2] == keys.f or evt[2] == keys.f6 then
-				--runFile(std.stdList)
+				-- runFile(std.stdList)
 				findPrompt()
 			elseif evt[2] == keys.f3 then
 				doChannelMenu()

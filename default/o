@@ -2,8 +2,9 @@
 	title = "O",
 	url = "http://pastebin.com/raw/4HLxeETG",
 	creator = "ProjectB",
-	description = "A secure and good lookin' terminal-based OS. Probably the most complete one on the forums, what with it not being terribly complicated.\nThis is an installer, so please kindly "..std.aliases.run.." this.",
+	description = "A secure and good lookin' terminal-based OS. Probably the most complete one on the forums, what with it not being terribly complicated and all.\nThis is an installer, so please kindly "..std.aliases.run.." this.",
 	catagory = 5,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/23391-o/",
 	keywords = {"ohhhhhhhh"},
 }

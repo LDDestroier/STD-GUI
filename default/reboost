@@ -4,6 +4,7 @@
 	creator = "Chickenbreadlp",
 	description = "An advanced graphical OS. Not much else to say, but it looks nice. It's a recreation of ApfelOS (which is crap) made with the new-found coding skills of Chickenbreadlp. It's an installer, so use the "..std.aliases.run.." button, not DOWNLOAD.",
 	catagory = 5,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/25542-reboost-beta-1/",
 	keywords = {},
 }

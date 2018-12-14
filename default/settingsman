@@ -1,5 +1,5 @@
 {
-	title = "Settingsmanager",
+	title = "SettingsManager",
 	url = "https://raw.githubusercontent.com/Wilma456/Computercraft/master/settingsmanager.lua",
 	creator = "Wilma456",
 	description = "A simple-to-use graphical interface for modifying ComputerCraft settings.",
@@ -7,4 +7,3 @@
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27890-settingsmanager-manage-the-settings-of-your-computer/",
 	keywords = {},
 }
--- settings man: weak to broken config cannon

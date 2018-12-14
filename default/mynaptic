@@ -4,6 +4,7 @@
 	creator = "&9Wilma456",
 	description = "A graphical interface for Lyqyd's own Packman package manager.\nThis is an installer, so please "..std.aliases.run..".",
 	catagory = 11,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/27327-mynaptic-a-gui-for-packman/",
 	keywords = {"packman","pacman","gui","graphical user interface","programms"},
 }

@@ -4,6 +4,7 @@
 	creator = "-DECE-",  
 	description = "A powerful audio editor for ComputerCraft, versions 1.8 and beyond. Uses CC's speakers (not computronics!)\nThis is an installer, so I implore that you "..std.aliases.run..".",  
 	catagory = 1,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29560-starship-cc-18-audio-editor/",
 	keywords = {"music","noteblock","advanced","cc1.8"}
 }

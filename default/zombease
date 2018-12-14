@@ -4,6 +4,7 @@
 	creator = "viluon",
 	description = "A top-down survival shooter where you kill zombies with various weapons. Lemme tell ya, this game has some of the best graphics ComputerCraft can handle.\nThis game's in beta, so expect bugs and poor framerate.\nThis is an installer, so please "..std.aliases.run.." this.",
 	catagory = 3,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28093-zombease-beta/",
 	keywords = {"zombies","shooter","top-down","graffiks"},
 }

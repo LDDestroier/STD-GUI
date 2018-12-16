@@ -1,0 +1,10 @@
+{
+	title = "Milo",
+	url = "http://pastebin.com/raw/uzghlbnc",
+	creator = "Kepler",
+	description = "Milo is an program for crafting and managing a storage network. Milo also has a wireless remote which transfers items directly to the player.\nThis is an installer, so do "..std.aliases.run.." it, if you would.",
+	catagory = 1,
+  run = true,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29761-milo-crafting-and-inventory-system/",
+	keywords = {"chest","storage","management","crafting"}
+}

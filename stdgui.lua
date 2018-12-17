@@ -6,9 +6,6 @@
 	It has category sorting, program searching, smooth scrolling, and run support (not just download)
 	This will tell you if you're overwriting a file, so no worry.
 
-	As of May 15th (my GOSH DARN birthday) 2016, STD-GUI now lets you install SimSoft applications in the store interface!
-	As of Jan 11th 2018, STD-GUI now lets you install Axiom OS applications too!
-
 	pastebin get P9dDhQ2m stdgui
 	std PB P9dDhQ2m stdgui
 	std ld stdgui stdgui
@@ -23,6 +20,12 @@ local tsv = function(visible)
 end
 
 local isBeta = false -- changes the update URL
+if type(std) ~= "table" then std = {} end
+
+std.updateURL = {
+	["stable"] 	= "https://raw.githubusercontent.com/LDDestroier/STD-GUI/master/stdgui.lua",
+	["beta"] 	= "https://raw.githubusercontent.com/LDDestroier/STD-GUI/beta/stdgui.lua"
+}
 
 if not http then
 	return false, printError("HTTP must be enabled to use STD. Contact an administrator for assistance.")
@@ -37,12 +40,10 @@ local doDisplayTitle = false
 local relativePath = false
 local doColorize = true
 
-if type(std) ~= "table" then std = {} end
 std.std_version = 101 -- to prevent updating to std command line
 
-local overrideNoOS = false 	-- prevent SimSoft functions, even if it's installed
-local isSimSoft = false 	-- special integration into SimSoft!
-local isAxiom = false 		-- special integration into Axiom!
+local overrideNoOS = false 	-- prevent custom OS installer functionality
+
 std.channel = "STD"
 std.prevChannel = std.channel
 
@@ -161,10 +162,20 @@ end
 
 std.stdList = "."..std.channel:lower().."_list"
 
-if (fs.isDir("SimSoft/Data") and fs.isDir("SimSoft/SappS")) and (not overrideNoOS) then -- checks if SimSoft is installed
-	isSimSoft = true
-elseif (fs.isDir("Axiom") and fs.exists("Axiom/sys.axs")) and (not overrideNoOS) then 	-- checks if Axiom is installed
-	isAxiom = true
+std.currentOS = "CraftOS" -- enables integration into operating systems
+if not overrideNoOS then
+	if (fs.isDir("SimSoft/Data") and fs.isDir("SimSoft/SappS")) then -- checks if SimSoft is installed
+		std.currentOS = "SimSoft"
+
+	elseif (fs.exists("Axiom/sys.lua") or fs.exists("Axiom/sys.axs")) then 	-- checks if Axiom is installed
+		std.currentOS = "AxiomUI"
+
+	elseif (fs.isDir("sys") and fs.isDir("usr") and fs.exists("sys/kernel.lua") and fs.exists("sys/boot/opus.boot")) then
+		std.currentOS = "OpusOS"
+
+	elseif (fs.isDir("Nova") and fs.isDir("Nova/apps")) then
+		std.currentOS = "NovaHorizon"
+	end
 end
 
 local cprint = function(txt,y)
@@ -547,18 +558,22 @@ local getFile = function(filename,url)
 	end
 	local prog
 	if type(url) == "table" then
-		prog = std.contextualGet(url[1])
+		prog = setfenv(url[1], _ENV)(filename)
 	else
 		prog = http.get(url)
+		if not prog then
+			return false, "could not connect"
+		end
+		prog = prog.readAll()
+		local fyle = fs.open(filename,"w")
+		fyle.write(prog)
+		fyle.close()
 	end
-	if not prog then
-		return false, "could not connect"
+	if type(url) == "table" then
+		return true, 0
+	else
+		return true, fs.getSize(filename)
 	end
-	prog = prog.readAll()
-	local fyle = fs.open(filename,"w")
-	fyle.write(prog)
-	fyle.close()
-	return true, fs.getSize(filename)
 end
 local runFile = function(path, ...)
 	if not fs.exists(path) then
@@ -636,33 +651,34 @@ local renderStore = function(list,filter,scrollY,namescroll,fixedDotY,buttonIndi
 	if tsv then tsv(false) end
 	for k,v in pairs(list) do
 		if (v.catagory == filter) or filter == 0 then
-			table.insert(fullrend,{" &"..blit_names[palate.store.entryasterisk].."*&"..blit_names[palate.store.entrytxt]..v.title,v})
-			table.insert(fullrend,{" by &r"..v.creator,v})
-			table.insert(fullrend,{" Category: "..std.storeCatagoryNames[v.catagory],v,v.catagory})
-			table.insert(fullrend,"nilline")
+			fullrend[1+#fullrend] = {table.concat({" &", blit_names[palate.store.entryasterisk], "*&", blit_names[palate.store.entrytxt], v.title}), v}
+			fullrend[1+#fullrend] = {" by &r"..v.creator,v}
+			fullrend[1+#fullrend] = {" Category: "..std.storeCatagoryNames[v.catagory],v,v.catagory}
+			fullrend[1+#fullrend] = "nilline"
 		end
 	end
-	table.insert(fullrend,"")
+	fullrend[1+#fullrend] = ""
 	dotY = fixedDotY or math.floor((scr_y-2)*((scroll-1)/(maxScroll-1)))+2
+	
 	for a = scrollY, (scr_y+scrollY)-1 do
 		if type(fullrend[a]) == "table" then
-			table.insert(visiblerend,fullrend[a][1])
-			table.insert(output,fullrend[a][2])
-			if fullrend[a][3] then
-				table.insert(colors_output,fullrend[a][3])
-			else
-				table.insert(colors_output,false)
-			end
+			
+			visiblerend[1+#visiblerend] = fullrend[a][1]
+			output[1+#output] = fullrend[a][2]
+			
+			colors_output[1+#colors_output] = fullrend[a][3] and fullrend[a][3] or false
 		else
-			table.insert(visiblerend,fullrend[a])
-			table.insert(output,{})
-			table.insert(colors_output,false)
+			visiblerend[1+#visiblerend] = fullrend[a]
+			output[1+#output] = {}
+			colors_output[1+#colors_output] = false
 		end
 	end
+	
 	setDefaultColors()
 	charClear(palate.store.bgchar)
+	
 	for a = 1, #visiblerend do
-		term.setCursorPos(2-namescroll,a+1)
+		term.setCursorPos(2-namescroll,1+a)
 		if visiblerend[a] == "nilline" then
 			setDefaultColors()
 			clearMostline()
@@ -715,23 +731,24 @@ local renderStore = function(list,filter,scrollY,namescroll,fixedDotY,buttonIndi
 	return output
 end
 
-local simSoftInstall = function(obj,objname,appname)
+local simSoftInstall = function(obj, objname, appname)
 	local installSystemName = "STD App Distribution (sad...)"
 	appname = appname or objname
 	local getFromURL = function(url)
-		local cunt
+		local fuck
 		if type(url) == "table" then
-			cunt = std.contextualGet(url[1])
+			fuck = setfenv(url[1], _ENV)(filename)
+			return nil
 		else
-			cunt = http.get(url)
+			fuck = http.get(url)
 		end
-		if not cunt then
+		if not fuck then
 			return shit
 		else
 			if type(url) == "table" then
-				return cunt.readAll(), false
+				return fuck.readAll(), false
 			else
-				return cunt.readAll(), (string.find(url,"://pastebin.com/raw/") and (url:sub(-9):gsub("/","")) or false)
+				return fuck.readAll(), (string.find(url,"://pastebin.com/raw/") and (url:sub(-9):gsub("/","")) or false)
 			end
 		end
 	end
@@ -769,14 +786,14 @@ end
 local doFindFunc = function(name)
 	scroll = 1
 	maxScroll = setMaxScroll(catag)
-	renderStore(getFindList(name),catag,scroll,scrollX,_,not term.isColor())
+	renderStore( getFindList(name) ,catag, scroll, scrollX, _, not term.isColor() )
 	term.setCursorPos(1,1)
 	bow()
 	term.clearLine()
 	write("Find: ")
 end
 
-local funcread = function(repchar,rHistory,doFunc,noNewLine)
+local funcread = function(repchar, rHistory, doFunc, noNewLine)
 	local scr_x,scr_y = term.getSize()
 	local sx,sy = term.getCursorPos()
 	local cursor = 1
@@ -881,7 +898,7 @@ local displayTitle = function()
 	paintutils.drawImage(title,-1,1)
 	setDefaultColors()
 	term.setCursorPos(4,16)
-	term.write("STD-GUI "..(isBeta and "Beta" or "Stable"))
+	term.write("STD-GUI "..(isBeta and "beta" or "stable"))
 	sleep(0)
 	local evt
 	repeat
@@ -902,15 +919,15 @@ local renderStoreItem = function(obj) --now being experimented on...
 	while true do
 		bruffer = {
 			"",
-			" &"..blit_names[palate.item.specialtxt]..obj.title,
-			" &"..blit_names[palate.item.txt].."by &"..blit_names[palate.item.specialtxt]..obj.creator,
-			" &"..blit_names[palate.item.txt].."Category: "..std.storeCatagoryNames[obj.catagory],
+			table.concat({" &", blit_names[palate.item.specialtxt], obj.title}),
+			table.concat({" &", blit_names[palate.item.txt], "by &", blit_names[palate.item.specialtxt], obj.creator}),
+			table.concat({" &", blit_names[palate.item.txt], "Category: ", std.storeCatagoryNames[obj.catagory]}),
 			"",
-			"&"..blit_names[palate.item.txt]..obj.description,
+			table.concat({"&", blit_names[palate.item.txt], obj.description,})
 		}
 		if showPostURL and obj.forumPost then
-			local post = " &"..blit_names[palate.item.forumtxt].."~"..blit_names[palate.item.forumbg]..obj.forumPost:gsub("http://www.",""):sub(1,-2)
-			table.insert(bruffer,"&8Forum URL: "..post)
+			local post = table.concat({" &", blit_names[palate.item.forumtxt], "~", blit_names[palate.item.forumbg], obj.forumPost:gsub("http://www.",""):sub(1,-2)})
+			bruffer[#bruffer+1] = "&8Forum URL: "..post
 		end
 		if doRedraw then
 			term.setBackgroundColor(palate.item.bg)
@@ -956,8 +973,8 @@ local renderStoreItem = function(obj) --now being experimented on...
 				term.write("(R)UN")
 			end
 			local txt
-			if isSimSoft or isAxiom then
-				if term.isColor() then --yeah yeah, simsoft can't run on normal computers, but axiom can, so shut your cunting trap
+			if std.currentOS ~= "CraftOS" then
+				if term.isColor() then
 					term.setTextColor(palate.item.downloadtxt)
 					term.setBackgroundColor(palate.item.downloadbg)
 					txt = "INSTALL!"
@@ -1091,7 +1108,7 @@ local renderCatagoryMenu = function(expanded,cursor)
 				end
 				term.setCursorPos(longestLen+2,a+1)
 				term.write(" ")
-				table.insert(yposes,a+1)
+				yposes[#yposes+1] = 1+a
 			end
 		end
 		term.setCursorPos(1,#std.storeCatagoryNames+2)
@@ -1112,7 +1129,9 @@ local renderCatagoryMenu = function(expanded,cursor)
 		term.write("Chan.")
 		term.setTextColor(palate.menubar.hotkeytxt)
 		term.write("F3")
-		--writef("~f&8Cat.&7F1~r&r ~f&8Chan.&7F3")
+		term.setCursorPos(16,1)
+		term.setTextColor(palate.menubar.categorytxt)	
+		term.write("("..std.currentOS..")")
 	end
 	if term.isColor() then
 		term.setCursorPos(scr_x-4,1)
@@ -1171,7 +1190,7 @@ local renderChannelMenu = function(cursor)
 		end
 		term.setCursorPos(longestLen+2,a+1)
 		term.write(" ")
-		table.insert(yposes,{a+1,std.channelNames[a],std.channelURLs[std.channelNames[a]]})
+		yposes[1+#yposes] = {a+1,std.channelNames[a],std.channelURLs[std.channelNames[a]]}
 	end
 	term.setCursorPos(1,#std.channelNames+2)
 	term.write((" "):rep(longestLen+2))
@@ -1183,7 +1202,7 @@ local tArg = {...}
 if tArg[1] == "help" then
 	return displayHelp(true)
 elseif tArg[1] == "upgrade" then
-	local updateURL = isBeta and "http://pastebin.com/raw/uMZ23APu" or "http://pastebin.com/raw/P9dDhQ2m"
+	local updateURL = std.updateURL[isBeta and "beta" or "stable"]
 	local res, outcome = getFile(shell.getRunningProgram(),updateURL)
 	if not res then
 		error(outcome)
@@ -1215,7 +1234,7 @@ local cleanExit = function()
 	else
 		out = "Thank you for using STD-GUI!"
 	end
-	if isSimSoft or isAxiom then
+	if std.currentOS ~= "CraftOS" then
 		term.setCursorBlink(false)
 	end
 	cprint(out,scr_y/2)
@@ -1223,28 +1242,24 @@ local cleanExit = function()
 	sleep(0)
 	return true, "This shouldn't be an error."
 end
-local STDdownloadPrompt = function(item)
+
+local STDdownloadPrompt = function(item, itname, savepath)
 	term.setCursorPos(1,scr_y)
-	for k,v in pairs(std.storeURLs) do
-		if item.url == v.url then
-			itname = k
-			break
+	if not itname then
+		for k,v in pairs(std.storeURLs) do
+			if item.url == v.url then
+				itname = k
+				break
+			end
 		end
 	end
-	local savepath
-	if isAxiom then
-		if std.storeURLs[itname].catagory == 8 then -- f an API
-			savepath = fs.combine("/home/APIs", itname)
-		else
-			savepath = fs.combine("/Axiom/programs", itname) .. ".app"
-		end
-	else
+	if not savepath then
 		bow()
 		term.clearLine()
 		write("Save as: ")
 		savepath = funcread(nil,{},nil,true)
-		term.setCursorBlink(false)
 	end
+	term.setCursorBlink(false)
 	if savepath:gsub(" ","") == "" then
 		sleep(0)
 		return
@@ -1275,13 +1290,6 @@ local STDdownloadPrompt = function(item)
 			term.write(outcome)
 			sleep(0.6)
 		else
-			if isAxiom then
-				if std.storeURLs[itname].catagory ~= 8 then -- no need for an icon for an api, wouldn't you say
-					local file = fs.open(fs.combine("home/Desktop",itname)..".lnk", "w")
-					file.write(savepath)
-					file.close()
-				end
-			end
 			term.write("Downloaded! ("..outcome.." bytes)")
 			sleep(0.7)
 		end
@@ -1310,11 +1318,67 @@ SimSoftDownloadPrompt = function(object)
 	term.setCursorPos(1,scr_y)
 	term.clearLine()
 	term.write("Downloading...")
-	local res, outcome = simSoftInstall(object,itname or object.title:gsub(" ","-"),custLabel)
+	local res, outcome = simSoftInstall(object, itname or object.title:gsub(" ","-"), custLabel)
 	term.setCursorPos(1,scr_y)
 	term.clearLine()
 	term.write(outcome)
 	sleep(#outcome/13)
+end
+
+local customInstaller = function(OS, item)
+	for k,v in pairs(std.storeURLs) do
+		if item.url == v.url then
+			itname = k
+			break
+		end
+	end
+	local savepath
+	local installers = {
+		["CraftOS"] = function(item)
+			return STDdownloadPrompt(item, itname, nil)
+		end,
+		["AxiomUI"] = function(item)
+			if std.storeURLs[itname].catagory == 8 then
+				savepath = fs.combine("/home/APIs", itname)
+			else
+				savepath = fs.combine("/Axiom/programs", itname) .. ".app"
+			end
+			-- creates a desktop shortcut for all users if *not* an API
+			if std.storeURLs[itname].catagory ~= 8 then
+				if fs.isDir("home/Desktop") then
+					local file = fs.open(fs.combine("home/Desktop", itname)..".lnk", "w")
+					file.write(savepath)
+					file.close()
+				else
+					local users = fs.list("home")
+					for i = 1, #users do
+						if users[i] ~= "prg" then
+							local file = fs.open(fs.combine("home/" .. users[i] .. "/Desktop",itname)..".lnk", "w")
+							file.write(savepath)
+							file.close()
+						end
+					end
+				end
+			end
+			return STDdownloadPrompt(item, itname, savepath)
+		end,
+		["SimSoft"] = function(item)
+			return SimSoftDownloadPrompt(item)
+		end,
+		["OpusOS"] = function(item)
+			-- changes path if an API
+			if std.storeURLs[itname].catagory == 8 then
+				savepath = fs.combine("/sys/apis", itname)
+			else
+				savepath = fs.combine("/usr/apps", itname)
+			end
+			return STDdownloadPrompt(item, itname, savepath)
+		end,
+		["NovaHorizon"] = function(item)
+			return STDdownloadPrompt(item, itname, "Nova/apps")
+		end
+	}
+	return installers[OS](item)
 end
 
 local doCategoryMenu = function()
@@ -1370,7 +1434,7 @@ local doChannelMenu = function()
 			if y == 1 then break else
 				for a = 1, #yposes do
 					if (yposes[a][1] == y) and (x <= longth) then
-							if std.channel ~= yposes[a][2] then
+						if std.channel ~= yposes[a][2] then
 							std.prevChannel = std.channel
 							std.channel = yposes[a][2]
 							scroll = 1
@@ -1424,7 +1488,7 @@ local doEverything = function() -- do I have to do EVERYTHING?
 		if scroll < 1 then
 			scroll = 1
 		end
-		if (scroll-1 % 4 ~= 0) and (not term.isColor()) then
+		if (-1 + scroll % 4 ~= 0) and (not term.isColor()) then
 			scroll = scroll - ((scroll-1) % 4)
 		end
 		local mcursor = (not term.isColor()) and 1 or false
@@ -1471,12 +1535,7 @@ local doEverything = function() -- do I have to do EVERYTHING?
 							STDViewEntry(yposes[y].url)
 						elseif (butt == keys.i) then
 							sleep(0)
-							if isSimSoft then
-								SimSoftDownloadPrompt(yposes[y])
-							elseif isAxiom then
-								STDdownloadPrompt(yposes[y])
-							end
-							--break
+							customInstaller(std.currentOS, yposes[y])
 						end
 					elseif event == "mouse_click" then
 						if cy == scr_y then
@@ -1520,13 +1579,8 @@ local doEverything = function() -- do I have to do EVERYTHING?
 								term.setCursorPos(1,scr_y)
 								bow()
 								term.clearLine()
-								if isSimSoft then
-									SimSoftDownloadPrompt(yposes[y])
-									break
-								else
-									STDdownloadPrompt(yposes[y])
-									break
-								end
+								customInstaller(std.currentOS, yposes[y])
+								break
 							end
 						end
 					end
@@ -1588,8 +1642,8 @@ local doEverything = function() -- do I have to do EVERYTHING?
 			elseif evt[2] == keys.f5 then
 				pleaseWait()
 				std.getSTDList(std.prevChannel)
-			elseif (evt[2] == keys.f12) and (not isSimSoft) then
-				local updateURL = isBeta and "http://pastebin.com/raw/uMZ23APu" or "http://pastebin.com/raw/P9dDhQ2m"
+			elseif (evt[2] == keys.f12) and (std.currentOS ~= "CraftOS") then
+				local updateURL = std.updateURL[isBeta and "beta" or "stable"]
 				getFile(shell.getRunningProgram(),updateURL)
 				local flashes = {
 					colors.black,

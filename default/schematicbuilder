@@ -1,0 +1,11 @@
+{
+	title = "Schematic Builder (CC 1.7+)",
+	url = {function()
+		shell.run("pastebin run Fm3xf6Z9 builder.lua")
+	end},
+	creator = "Kepler",
+	description = "Builds .schematic files that are downloaded onto your turtle. Requires Plethora or OpenPeripherals.",
+	catagory = 9,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28989-schematic-builder-for-cc-17/",
+	keywords = {"turtle",".schematics","creator","planetminecraft","construction"}
+}

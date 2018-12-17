@@ -6,6 +6,7 @@
 	creator = "Kepler",
 	description = "Builds .schematic files that are downloaded onto your turtle. Requires Plethora or OpenPeripherals.",
 	catagory = 9,
+	run = true,
 	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28989-schematic-builder-for-cc-17/",
 	keywords = {"turtle",".schematics","creator","planetminecraft","construction"}
 }

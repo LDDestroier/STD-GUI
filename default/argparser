@@ -1,0 +1,9 @@
+{
+	title = "Argument Parser (Snippet)",
+	url = "https://raw.githubusercontent.com/LDDestroier/CC/master/argparser.lua",
+	creator = "LDDestroier",
+	description = "A snippit that you can insert in any of your programs (seriously, feel free) to parse arguments with zero hassle! Interprets boolean/string/number flags as well as regular arguments.",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29790-snippet-argument-parser/",
+	keywords = {"parsing", "flags", "parameters"}
+}

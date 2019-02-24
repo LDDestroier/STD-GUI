@@ -8,6 +8,7 @@
 
 	pastebin get P9dDhQ2m stdgui
 	std PB P9dDhQ2m stdgui
+	wget https://github.com/LDDestroier/STD-GUI/raw/master/stdgui.lua
 	std ld stdgui stdgui
 
 	This is a stable release. You fool!

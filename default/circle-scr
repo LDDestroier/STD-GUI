@@ -1,6 +1,6 @@
 {
 	title = "Circle Screensaver",
-	url = "http://pastebin.com/raw/rXQhBupz/",
+	url = "https://github.com/LDDestroier/CC/raw/master/screensaver.lua",
 	creator = std.aliases.ldd,
 	description = "A really trippy screensaver that makes lots of super-colorful concentric circles on your screen. It redraws the whole screen every frame, so I wouldn't use it in multiplayer. Oh, who am I kidding...",
 	catagory = 4,

@@ -14,8 +14,10 @@
 	This is a stable release. You fool!
 --]]
 
+local useSetVisible = false
+
 local tsv = function(visible)
-	if term.current().setVisible then
+	if term.current().setVisible and useSetVisible then
 		term.current().setVisible(visible) -- comment out if you are debugging
 	end
 end

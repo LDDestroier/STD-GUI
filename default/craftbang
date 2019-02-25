@@ -1,0 +1,10 @@
+{
+	title = "CraftBang",
+	url = "https://github.com/LDDestroier/CraftBang/raw/master/installer.lua",
+	creator = "Kingdaro",
+	description = "A multitasking desktop environment that comes with icons and various customizable settings. Modified to work with the latest CC.\nThis is an installer, so " .. std.aliases.run .. " please.",
+	catagory = 5,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/14697-craftbang-multitasking-desktop-environment/",
+	keywords = {"desktop","environment","multitasking","icons"},
+  run = true
+}

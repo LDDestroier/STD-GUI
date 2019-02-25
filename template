@@ -7,7 +7,8 @@ this is how all STD-GUI program links are formatted:
 	description = "brief-description",
 	catagory = 1,
 	forumPost = "url-to-cc-forum-post",
-	keywords = {"beep","boop"}
+	keywords = {"beep","boop"},
+	run = false
 }
 
 here are all the aliases:

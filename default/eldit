@@ -1,0 +1,10 @@
+{
+	title = "Eldit",
+	url = "https://github.com/LDDestroier/CC/raw/master/eldit.lua",
+	creator = "LDDestroier",
+	description = "An advanced (albeit WIP) text editor that allows for multiple cursors, insert, and copy/pasting from up to ten clipboards.\nMore functions will be added over time, as well as improved performance, maybe, probably.",
+	catagory = 1,
+	forumPost = "None at the moment. ",
+	keywords = {"selections","cursors","text","editor"},
+	run = false
+}

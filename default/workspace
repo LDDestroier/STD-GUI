@@ -1,0 +1,10 @@
+{
+	title = "Workspace",
+	url = "https://raw.githubusercontent.com/LDDestroier/CC/master/workspace.lua",
+	creator = std.aliases.ldd,
+	description = "Grants the full power of Linux workspaces into ComputerCraft. Shift workspaces with LeftCTRL + LeftSHIFT + Arrow Key, and experience multitasking like never before!",
+	catagory = 1,
+	forumPost = "nothing yet ",
+	keywords = {"linux", "workspaces", "ubuntu", "multitasking"},
+	run = false
+}

@@ -1,0 +1,10 @@
+{
+	title = "NFT Extra",
+	url = "https://github.com/LDDestroier/NFT-Extra/raw/master/nfte.lua",
+	creator = "LDDestroier",
+	description = "A collection of functions for the NFT image format.\nUsed for image loading, drawing, and transforming NFT images with stuff like rotation, stretching, colorswapping, and lightening/darkening). Put it in your programs if you want to manipulate images!",
+	catagory = 8,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29595-nft-extra-the-essential-api-for-your-nft-needs/",
+	keywords = {"nfte","manipulation","drawing","artwork"},
+	run = false
+}

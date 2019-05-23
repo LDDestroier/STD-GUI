@@ -1,0 +1,9 @@
+{
+	title = "Progdor2",
+	url = "https://github.com/LDDestroier/CC/raw/master/progdor2.lua",
+	creator = std.aliases.ldd,
+	description = "A utility that packages folders together into one file, and optionally tacks on self-extraction code. Supports CCA encryption and has a built-in file transfer utility that supports Skynet.\nHas been blessed by the fabled &eburninator&r of legend.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29825-progdor2-folder-archiving-and-file-transfering-program/",
+	keywords = {"eldidi","ldd","bundle","trogdor","burninate","folder","compression","ftp","transmitting"},
+}

@@ -1,0 +1,11 @@
+
+{
+	title = "SysMail",
+	url = "https://github.com/LDDestroier/CC/raw/master/sysmail.lua",
+	creator = std.aliases.ldd,
+	description = "Simple encrypted server-client mail system originally made for MinerMan132. Each client has a randomly generated key that the server must also have in order to be usable. Perfect for offices.",
+	catagory = 1,
+	forumPost = "none yet",
+	keywords = {"email","encrypted"},
+	run = false
+}

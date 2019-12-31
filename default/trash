@@ -1,0 +1,11 @@
+
+{
+	title = "TRAAAASH",
+	url = "https://github.com/LDDestroier/CC/raw/master/trash.lua",
+	creator = std.aliases.ldd,
+	description = "Wrapper for your programs. End the program or use L.CTRL+L.SHIFT+BACKSPACE and it will throw the program into the fucking traaaash",
+	catagory = 4,
+	forumPost = "get the hell outta here ",
+	keywords = {"trash","garbage","terrible"},
+	run = false
+}

@@ -1,0 +1,11 @@
+
+{
+	title = "LDris",
+	url = "https://github.com/LDDestroier/CC/raw/master/ldris.lua",
+	creator = std.aliases.ldd,
+	description = "A clone of Tetris with perfectly square squares, a fairly accurate TGM rotation system, hard drop, hold piece, and local/online multiplayer with garbage attack.",
+	catagory = 3,
+	forumPost = "none yet ",
+	keywords = {"tetris","garbage","multiplayer","skynet"},
+	run = false
+}

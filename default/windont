@@ -1,0 +1,9 @@
+{
+	title = "Windon't",
+	url = "https://github.com/LDDestroier/CC/raw/master/windont/windont.lua",
+	creator = std.aliases.ldd,
+	description = "A relatively advanced Window API replacement that adds individual text/background transparency (through the '-' character), and individual char/text/background transformation function support (so you can rotate and stretch windows and stuff).",
+	catagory = 8,
+	forumPost = "none yet ",
+	keywords = {"window","transformations","transparency"},
+}

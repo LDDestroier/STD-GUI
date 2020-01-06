@@ -1,0 +1,10 @@
+{
+	title = "Ringchat 1.2 (Client)",
+	url = "https://pastebin.com/raw/nQ7rSYbN",
+	creator = "Quartz101",
+	description = "Client for Ringchat, an encrypted client/server modem chat program that uses Ringnet, which was derived from PG23186706924's Ring LWE API.\nUpon startup, it will search for a server and prompt you to connect to one of them. Neat shit.",
+	catagory = 6,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29624-ringchat-12-encrypted-chat-via-ring-lwe/",
+	keywords = {"rlwe","encrypted"},
+	run = false
+}

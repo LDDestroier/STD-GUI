@@ -1,0 +1,9 @@
+{
+	title = "Lattix",
+	url = "http://pastebin.com/raw/5A2xujvw",
+	creator = "Konlab",
+	description = "Decent file explorer derived from Lattice (hence the similar name), featuring a copy/paste and a unique commandline interface for other functions such as searching. Uses the Surface API, so nothing flickers or flackers. ",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/29843-lattix-file-browser-remixed/",
+	keywords = {"file","browser","manager","explorer","remixed","surface"},
+}

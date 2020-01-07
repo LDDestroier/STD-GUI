@@ -1,0 +1,10 @@
+{
+	title = "Ride On (Mega Man Star Force) (MP3)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/em-virus-battle-mmsf1.mp3",
+	creator = std.aliases.ldd,
+	description = "Virus battle theme for Mega Man Star Force 1 for the Nintendo DS. Highly underrated as a battle theme, although there are better in the same series.\nConverted to MP3.",
+	catagory = 3,
+	forumPost = "n/a ",
+	keywords = {"ds","capcom","game","megaman"},
+	run = false
+}

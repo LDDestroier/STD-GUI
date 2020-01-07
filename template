@@ -26,7 +26,7 @@ std.aliases = {
 
 these are all the category names:
 
-{
+DEFAULT LIST: {
 	[1] = "Utility",		-- a general utility
 	[2] = "Pocket",			-- tailored specifically for pocket computers
 	[3] = "Game",			-- an actual game, not an animation or whatever
@@ -38,4 +38,10 @@ these are all the category names:
 	[9] = "Turtle",			-- For turtles, using the Turtle API.
 	[10] = "Command",		-- If it uses the command API at all
 	[11] = "HTTP",			-- If it is centred around HTTP, put it here.
+}
+
+CC-MEDIA LIST: {
+	[1] = "NBS Music",
+	[2] = "NFP Pictures",
+	[3] = "NFT Pictures",
 }

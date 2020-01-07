@@ -1,0 +1,10 @@
+{
+	title = "Allegro 2001 (Phoneix Wright - Ace Attorney)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/2001-moderato.nbs",
+	creator = std.aliases.ldd,
+	description = "Cross examination theme from Phoenix Wright - Ace Attorney. Comes in two flavors, this one being dubbed moderato.",
+	catagory = 1,
+	forumPost = "n/a ",
+	keywords = {"objection","cross-examination"},
+	run = false
+}

@@ -1,0 +1,10 @@
+{
+	title = "Bloody Tears (Castlevania II - Dracula's Curse)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/bloodytears.nbs",
+	creator = std.aliases.ldd,
+	description = "Daytime stage theme for Castlevania II for the NES. A real banger.",
+	catagory = 1,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26176-i-made-a-thing/",
+	keywords = {"nes","famicom","nintendo","game","konami"},
+	run = false
+}

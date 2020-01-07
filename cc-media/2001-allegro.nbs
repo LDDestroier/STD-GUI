@@ -1,0 +1,10 @@
+{
+	title = "Allegro 2001 (Phoneix Wright - Ace Attorney)",
+	url = "url-to-direct-download",
+	creator = std.aliases.ldd,
+	description = "Allegro variation of the cross examination theme from Phoenix Wright - Ace Attorney.",
+	catagory = 1,
+	forumPost = "n/a ",
+	keywords = {"objection","cross-examination"},
+	run = false
+}

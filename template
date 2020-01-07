@@ -42,6 +42,8 @@ DEFAULT LIST: {
 
 CC-MEDIA LIST: {
 	[1] = "NBS Music",
-	[2] = "NFP Pictures",
-	[3] = "NFT Pictures",
+	[2] = "DFPWM Music",
+	[3] = "MP3 Music",
+	[4] = "NFP Pictures",
+	[5] = "NFT Pictures",
 }

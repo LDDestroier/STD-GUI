@@ -1,0 +1,10 @@
+{
+	title = "Potatoplex",
+	url = "https://pastebin.com/raw/wYBZjQhN",
+	creator = "Gollark",
+	description = "A wacky looking screensaver that fills your screen with colorful garbage. Can take a bunch of arguments, but I can't be assed to list them here.",
+	catagory = 4,
+	forumPost = "N/A ,
+	keywords = {"tuber","spud","screensaver"},
+	run = false
+}

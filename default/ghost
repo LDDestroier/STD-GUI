@@ -1,0 +1,10 @@
+{
+	title = "Ghosting Emulator",
+	url = "https://github.com/LDDestroier/CC/raw/master/windont/ghost.lua",
+	creator = std.aliases.ldd,
+	description = "A demonstration of the Windon't API to emulate an amber display with atrocious ghosting. Looks very pretty, and even works with OpusOS (supposing you run ghost.lua and THEN OpusOS) and Cloud Catcher (only if you run ghost.lua AFTER it).",
+	catagory = 4,
+	forumPost = "N/A (for now) ",
+	keywords = {"screen","terminal","windon't","windont","useless"},
+	run = false
+}

@@ -1,6 +1,6 @@
 {
 	title = "Opus OS",
-	url = "http://pastebin.com/raw/sj4VMVJj",
+	url = "https://pastebin.com/raw/UzGHLbNC",
 	creator = "Kepler",
 	description = "An advanced, multitasking, computer/turtle/pocket OS with built-in remote shell access, screen sharing, file manager, and a damn fine UI.\nComes with its own store based on STDGUI! Ain't that something?\n\nThis is an installer, so please "..std.aliases.run.." it if you wish to install Opus OS right now.",
 	catagory = 5,

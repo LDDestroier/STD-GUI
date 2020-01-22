@@ -1,0 +1,10 @@
+{
+	title = "Lightweight Messaging System",
+	url = url = "https://pastebin.com/raw/L0ZKLBRG",
+	creator = "Gollark",
+	description = "A very simple, decentralized modem chat program.",
+	catagory = 6,
+	forumPost = "N/A ",
+	keywords = {"decentralized"},
+	run = false
+}

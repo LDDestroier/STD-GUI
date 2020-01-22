@@ -1,0 +1,10 @@
+{
+	title = "Sensible Rednet Repeater",
+	url = "https://pastebin.com/raw/PMcZc4yG",
+	creator = "Gollark",
+	description = "A modifed version of the default Rednet Repeater that is patched to fix endless rednet loops. Not that you should be using Rednet, anyhow...",
+	catagory = 6,
+	forumPost = "N/A ",
+	keywords = {"modem","patched"},
+	run = false
+}

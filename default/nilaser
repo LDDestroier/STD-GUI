@@ -1,0 +1,10 @@
+{
+	title = "NILaser",
+	url = "https://pastebin.com/F5YZLdS7",
+	creator = "Gollark",
+	description = "An automatic laser firing system that aims towards the closest living thing to it. Terrifying.",
+	catagory = 1,
+	forumPost = "N/A ",
+	keywords = {"beam","fuck","sentry","neuralinterface"},
+	run = false
+}

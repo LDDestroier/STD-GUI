@@ -302,7 +302,7 @@ local function getSTDStoreList(files) --thanks squiddev
 			end
 			contents = handle.readAll()
 			if contents then
-				std.storeURLs[name] = textutils.unserialize(contents:gsub("std.aliases.%a+", function(i) return "\""..load("return "..i,nil,nil,_ENV)().."\"" end))
+				std.storeURLs[name] = textutils.unserialize(contents:gsub("std.aliases.%a+", function(i) return "\""..load("return "..i,nil,nil,{std = std})().."\"" end))
 			else
 				std.storeURLs[name] = {
 					title = "ERROR ("..name..")",

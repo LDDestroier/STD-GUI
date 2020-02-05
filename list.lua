@@ -454,4 +454,4 @@ if ((std.std_version or 0) < 101) or requireInjector then
 		std.storeURLs[k].description = textToBlit(std.storeURLs[k].description)
 	end
 end
-_G.std = std
+--_G.std = std

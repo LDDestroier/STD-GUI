@@ -1,0 +1,10 @@
+{
+	title = "full-name-of-program",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/concreteman.nbs",
+	creator = std.aliases.ldd,
+	description = "Stage theme for Concrete Man from Mega Man 9.",
+	catagory = 1,
+	forumPost = "n/a ",
+	keywords = {"megaman9","rockman9"},
+	run = false
+}

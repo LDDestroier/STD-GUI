@@ -1,0 +1,10 @@
+{
+	title = "NO, U!",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NFP/nou.nfp",
+	creator = std.aliases.ldd,
+	description = "A depiction of a thrilling courtroom battle.",
+	catagory = 4,
+	forumPost = "n/a ",
+	keywords = {"phoenix wright","objection","edgeworth"},
+	run = false
+}

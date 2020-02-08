@@ -1,0 +1,10 @@
+{
+	title = "Dr. Wily Boss Fight (Mega Man 1)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/wileboss-mm1.nbs",
+	creator = std.aliases.ldd,
+	description = "Fight theme when tackling Dr. Wily and his other non-Robot-Master bosses from Mega Man 1.",
+	catagory = 1,
+	forumPost = "n/a ",
+	keywords = {"rockman1","willy","wileboss","yellow devil"},
+	run = false
+}

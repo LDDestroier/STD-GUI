@@ -1,0 +1,10 @@
+{
+	title = "Concrete Man (Mega Man 9) (MP3)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/concreteman.mp3",
+	creator = std.aliases.ldd,
+	description = "Stage theme for Concrete Man from Mega Man 9.\nConverted to MP3.",
+	catagory = 3,
+	forumPost = "n/a ",
+	keywords = {"megaman9","rockman9"},
+	run = false
+}

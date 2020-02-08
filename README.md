@@ -60,5 +60,6 @@ CC-MEDIA LIST: {
 	[3] = "MP3 Music",
 	[4] = "NFP Pictures",
 	[5] = "NFT Pictures",
+	[6] = "PAIN Serialized Pictures",
 }
 ```

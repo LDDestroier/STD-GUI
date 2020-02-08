@@ -1,0 +1,10 @@
+{
+	title = "Trogdor the Burninator",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NFP/trogdor.nfp",
+	creator = std.aliases.ldd,
+	description = "An enormous image of the fabled burninator, scourge of the peasants and their thatch-roofed houses.",
+	catagory = 4,
+	forumPost = "n/a ",
+	keywords = {"burnination", "thatch-roofed", "peasants", "homestar"},
+	run = false
+}

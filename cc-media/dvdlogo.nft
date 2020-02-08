@@ -1,0 +1,10 @@
+{
+	title = "DVD Logo",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NFT/dvdlogo.nft",
+	creator = std.aliases.ldd,
+	description = "A moderately sized image of the DVD logo. Much bouncier than it looks.",
+	catagory = 5,
+	forumPost = "n/a ",
+	keywords = {"cd", "disc", "deeveedee", "bounce"},
+	run = false
+}

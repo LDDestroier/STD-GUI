@@ -1,0 +1,10 @@
+{
+	title = "Virus Busting (Mega Man Battle Network 2)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NBS/mmbn2virus.nbs",
+	creator = std.aliases.ldd,
+	description = "Normal enemy fighting theme from Mega Man Battle Network 2 on the GBA.",
+	catagory = 1,
+	forumPost = "n/a ",
+	keywords = {"star force","gameboy advance"},
+	run = false
+}

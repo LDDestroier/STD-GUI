@@ -1,0 +1,10 @@
+{
+	title = "KLAX Logo (K)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NFT/klax2.nft",
+	creator = std.aliases.ldd,
+	description = "The logo for the hit arcade puzzle game KLAX, by Midway.\nThe 'K' is just a normal 'K' instead of a hand.",
+	catagory = 5,
+	forumPost = "n/a ",
+	keywords = {"masterpiece","blocks","tiles"},
+	run = false
+}

@@ -1,0 +1,10 @@
+{
+	title = "DVD Logo",
+	url = "https://github.com/LDDestroier/CC/raw/master/dvdlogo.lua",
+	creator = std.aliases.ldd,
+	description = "Draws the bouncing DVD logo onto the first monitor it finds (failing that, draws onto the terminal screen.) A worthy screensaver.",
+	catagory = 4,
+	forumPost = "naw mate ",
+	keywords = {"cd","disc","masterpiece"},
+	run = false
+}

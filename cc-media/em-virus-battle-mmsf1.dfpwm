@@ -1,0 +1,10 @@
+{
+	title = "Ride On (Mega Man Star Force) (DFPWM)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/DFPWM/em-virus-battle-mmsf1.dfpwm",
+	creator = std.aliases.ldd,
+	description = "Virus battle theme for Mega Man Star Force 1 for the Nintendo DS. Highly underrated as a battle theme, although there are better in the same series.\nConverted to DFPWM.",
+	catagory = 2,
+	forumPost = "n/a ",
+	keywords = {"ds","capcom","game","megaman"},
+	run = false
+}

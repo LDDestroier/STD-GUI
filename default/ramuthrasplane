@@ -1,0 +1,10 @@
+{
+	title = "Ramuthra's Plane",
+	url = "https://pastebin.com/raw/AnAVtXCy",
+	creator = "Saldor010",
+	description = "The up-to-date release of Ramuthra's Plane, an entry for CCJam 2017. It's a pseudo-RPG puzzle adventure game with a top-down perspective.\nThis is an installer, so you'd best be " .. std.aliases.run .. "ning it.",
+	catagory = 3,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/28935-ramuthras-plane/",
+	keywords = {"rpg","adventure","puzzle","ccjam2017"},
+	run = true
+}

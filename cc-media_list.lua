@@ -41,8 +41,8 @@ std.storeCatagoryColors = {
 		bg = colors.lightGray
 	},
 	[3] = {
-		txt = colors.cyan,
-		bg = colors.black
+		txt = colors.white,
+		bg = colors.purple
 	},
 	[4] = {
 		txt = colors.black,
@@ -53,8 +53,8 @@ std.storeCatagoryColors = {
 		bg = colors.lightBlue
 	},
 	[6] = {
-		txt = colors.orange,
-		bg = colors.gray
+		txt = colors.red,
+		bg = colors.white
 	},
 }
 

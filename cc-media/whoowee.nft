@@ -1,0 +1,10 @@
+{
+	title = "Whoo wee!",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NFT/whoowee.nft",
+	creator = std.aliases.ldd,
+	description = "An image of a person purchasing a delicious beverage from a machine.\nI used this in one of those forum games, but I forget which.",
+	catagory = 5,
+	forumPost = "cannot remember, alas ",
+	keywords = {"soda","cokecola","vending machine"},
+	run = false
+}

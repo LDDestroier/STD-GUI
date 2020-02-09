@@ -1,0 +1,10 @@
+{
+	title = "Bloody Tears (Castlevania II - Dracula's Curse) (DFPWM)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/DFPWM/bloodytears.dfpwm",
+	creator = std.aliases.ldd,
+	description = "Daytime stage theme for Castlevania II for the NES. A real banger.\nConverted to DFPWM.",
+	catagory = 2,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/26176-i-made-a-thing/",
+	keywords = {"nes","famicom","nintendo","game","konami"},
+	run = false
+}

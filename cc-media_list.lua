@@ -1,7 +1,7 @@
 local tArg = {...}
 
 local repoName = tArg[1] or "LDDestroier/STD-GUI"
-local repoPath = tArg[2] or "default"
+local repoPath = tArg[2] or "cc-media"
 
 -- don't get any funny ideas, this key has zero permissions
 local token = "0f7e97e6524dcb03f79978ff88235a510f5ff4ae"

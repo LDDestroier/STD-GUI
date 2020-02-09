@@ -1,0 +1,10 @@
+{
+	title = "Krab Bop Channel",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/DFPWM/krabii.dfpwm",
+	creator = "Chris Kogos / Nickelodeon",
+	description = "A remix of the Mii Channel theme that uses samples from the BEE BOO BOOP BOP episode of SpongeBob SquarePants. A thorough bop.",
+	catagory = 2,
+	forumPost = "n/a ",
+	keywords = {"mii","robot","spongebob squarepants"},
+	run = false
+}

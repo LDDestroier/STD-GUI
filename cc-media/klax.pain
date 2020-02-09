@@ -1,0 +1,10 @@
+{
+	title = "KLAX Logo + Intro Text",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/pain/klax.pain",
+	creator = std.aliases.ldd,
+	description = "The logo and intro text from the hit arcade puzzle game KLAX, by Midway.\nContains logo starting with a K, logo starting with a Hand, and the \"IT'S THE NINETIES AND THERE IS TIME FOR...\" text.",
+	catagory = 6,
+	forumPost = "n/a ",
+	keywords = {"nineties", "blocks", "tiles"},
+	run = false
+}

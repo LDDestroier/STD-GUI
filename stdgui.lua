@@ -52,10 +52,10 @@ std.prevChannel = std.channel
 
 std.channelURLs = { --special pastebin URLs for getting a list of files.
 	["STD"] = "https://raw.githubusercontent.com/LDDestroier/STD-GUI/master/list.lua", -- default store list on github, more updated
+	["STD-Media"] = "https://github.com/LDDestroier/STD-GUI/raw/master/cc-media_list.lua", 	-- list of pictures and music on github
 --	["STD PB"] = "http://pastebin.com/raw/zVws7eLq", 	-- default store list on pastebin, but just use github, man
-	["Discover"] = "http://pastebin.com/raw/9bXfCz6M", 	-- owned by dannysmc95
+--	["Discover"] = "http://pastebin.com/raw/9bXfCz6M", 	-- owned by dannysmc95, but discontinued.
 --	["OnlineAPPS"] = "http://pastebin.com/raw/g2EnDYLp", 	-- owned by Twijn, but discontinued.
-	["STD-Media"] = "https://pastebin.com/raw/3JZHXTGL", 	-- list of pictures and music
 }
 local palate -- yes I know shut up
 palate = {

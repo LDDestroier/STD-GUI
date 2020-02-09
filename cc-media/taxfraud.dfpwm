@@ -1,0 +1,10 @@
+{
+	title = "Ta-Ta-Tax Fraud!",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/DFPWM/taxfraud.dfpwm",
+	creator = "SiIvaGunner",
+	description = "A sick(tm) beat laid upon you by Yoshisaur Munchikoopas about his righteous slam of United States tax law.",
+	catagory = 2,
+	forumPost = "n/a ",
+	keywords = {"yoshisaur munchikoopas","taxation","laundering"},
+	run = false
+}

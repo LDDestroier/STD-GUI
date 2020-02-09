@@ -53,7 +53,7 @@ std.storeCatagoryColors = {
 		bg = colors.lightBlue
 	},
 	[6] = {
-		txt = colors.red,
+		txt = colors.brown,
 		bg = colors.white
 	},
 }

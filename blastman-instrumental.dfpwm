@@ -1,0 +1,10 @@
+{
+	title = "Blast Man's Theme (Instrumental Remix) (Mega Man 11)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/DFPWM/blastman-instrumental.dfpwm",
+	creator = "Marika Suzuki (Capcom)",
+	description = "Instrumental remix of Blast Man's stage theme, from Mega Man 11.",
+	catagory = 2,
+	forumPost = "n/a ",
+	keywords = {"rockman11","megaman11","dlc"},
+	run = false
+}

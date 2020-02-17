@@ -1,0 +1,10 @@
+{
+	title = "LongOS Default Wallpaper - Girls (NFT version)",
+	url = "https://github.com/LDDestroier/CC-Media/raw/master/NFT/longos.nft",
+	creator = "Gvin",
+	description = "The full, uncut (but lossily converted) default wallpaper for the ancient ComputerCraft OS, LongOS. Appears to depict two girls embracing, although you'd only see the bottom 18 lines if you were to boot the OS.\nThis image was originally made in NFP format, and here it has been squished down using BLittle. As such, some color loss has occured, but it still looks okay.",
+	catagory = 5,
+	forumPost = "http://www.computercraft.info/forums2/index.php?/topic/15179-long-os-v12-released-multitasking-multilocalized-windowed-open-source-os/",
+	keywords = {"embrace","olde","uncut"},
+	run = false
+}

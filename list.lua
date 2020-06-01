@@ -335,7 +335,7 @@ local function getSTDStoreList(files) --thanks squiddev
 	return true
 end
 
-local listings = http.get("https://api.github.com/repos/" .. repoName .. "/contents/" .. repoPath, {Authorization = token})
+local listings = http.get("https://api.github.com/repos/" .. repoName .. "/contents/" .. repoPath, {Authorization = "token " .. token})
 local simulDownloads = {}
 local amnt = 0
 if listings then

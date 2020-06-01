@@ -335,7 +335,7 @@ local function getSTDStoreList(files) --thanks squiddev
 	return true
 end
 
-local listings = http.get("https://api.github.com/repos/" .. repoName .. "/contents/" .. repoPath .. "?access_token=" .. token)
+local listings = http.get("https://api.github.com/repos/" .. repoName .. "/contents/" .. repoPath), {Authorization = token})
 local simulDownloads = {}
 local amnt = 0
 if listings then
@@ -382,11 +382,11 @@ if ((std.std_version or 0) < 101) or requireInjector then
 	for k,v in pairs(colors_names) do
 		blit_names[v] = k
 	end
-	
+
 	local codeNames = { --just for checking, not for any translation
 		["r"] = "reset",
 	}
-	
+
 	local moveOn
 	local textToBlit = function(str)
 		local p = 1
@@ -447,7 +447,7 @@ if ((std.std_version or 0) < 101) or requireInjector then
 		end
 		return output, txcolorout, bgcolorout, usedformats
 	end
-	
+
 	for k,v in pairs(std.storeURLs) do
 		std.storeURLs[k].title = textToBlit(std.storeURLs[k].title)
 		std.storeURLs[k].creator = textToBlit(std.storeURLs[k].creator)
